@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="affected-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Affected Status</h2><div><p>An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree.</p>
+</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">missing<a name="affected-status-missing"> </a></td><td>Missing</td><td>It is unknown whether the person is affected by the condition</td></tr><tr><td style="white-space:nowrap">unaffected<a name="affected-status-unaffected"> </a></td><td>Unaffected</td><td>Person is unaffected by the condition</td></tr><tr><td style="white-space:nowrap">Affected<a name="affected-status-Affected"> </a></td><td>Affected</td><td>Person is affected by the condition</td></tr></table></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status"/>
+  <version value="0.1.0"/>
+  <name value="AffectedStatus"/>
+  <title value="Affected Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-10-18T20:32:59+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree."/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status?vs"/>
+  <content value="complete"/>
+  <concept>
+    <code value="missing"/>
+    <display value="Missing"/>
+    <definition value="It is unknown whether the person is affected by the condition"/>
+  </concept>
+  <concept>
+    <code value="unaffected"/>
+    <display value="Unaffected"/>
+    <definition value="Person is unaffected by the condition"/>
+  </concept>
+  <concept>
+    <code value="Affected"/>
+    <display value="Affected"/>
+    <definition value="Person is affected by the condition"/>
+  </concept>
+</CodeSystem>

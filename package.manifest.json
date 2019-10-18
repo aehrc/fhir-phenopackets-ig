@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "fhirVersion": "[4.0.0]",
+  "date": "20191018203229",
+  "name": "ga4gh.fhir.phenopackets"
+}

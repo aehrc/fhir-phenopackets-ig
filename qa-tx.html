@@ -1,0 +1,25 @@
+<html><head><title>Terminology Server Log</title></head><body><h2>Terminology Server Log</h2>
+<hr/><a name="l1"> </a>
+<pre>
+GET http://localhost:8080/fhir/metadata?mode=terminology HTTP/1.0
+User-Agent: Java FHIR Client for FHIR
+Accept: application/fhir+xml
+Content-Type: application/fhir+xml;charset=UTF-8
+Accept-Charset: UTF-8
+</pre>
+<pre>
+HTTP/1.1 200 
+X-Request-Id: a1730ebe-81dc-43d3-8ac9-67eb9ef7d2d1
+Cache-Control: must-revalidate, max-age=1
+Vary: Accept,Origin,Accept-Encoding,Accept-Language
+X-Powered-By: HAPI FHIR 3.8.0 REST Server (FHIR Server; FHIR 4.0.0/R4)
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+Content-Type: application/fhir+xml;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 18 Oct 2019 10:33:45 GMT
+
+&lt;TerminologyCapabilities xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;meta&gt;&lt;profile value=&quot;http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities&quot;/&gt;&lt;/meta&gt;&lt;text&gt;&lt;status value=&quot;generated&quot;/&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;h1&gt;CSIRO Terminology Server (Ontoserver ®)&lt;/h1&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Purpose&lt;/td&gt;&lt;td&gt;Description of terminology service capabilities&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Publisher&lt;/td&gt;&lt;td&gt;The Australian e-Health Research Centre, CSIRO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;6.0.0-SNAPSHOT.1571394825253&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date&lt;/td&gt;&lt;td&gt;2019-10-18&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Ontoserver supports a large portion of the FHIR Terminology Services specification. In particular, it has native support for SNOMED CT, LOINC, and code systems defined via the FHIR CodeSystem resource. This extends to supporting use of all defined and default filters in a FHIR ValueSet, as well as the implicitly defined ValueSets for SNOMED CT and LOINC.&lt;/p&gt;&lt;p&gt;More details are available in the &lt;a href=&quot;https://ontoserver.csiro.au/docs/6.0.0-SNAPSHOT/api-fhir.html&quot;&gt;Ontoserver documentation&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/text&gt;&lt;version value=&quot;6.0.0-SNAPSHOT.1571394825253&quot;/&gt;&lt;name value=&quot;OntoserverTerminologyCapabilities&quot;/&gt;&lt;title value=&quot;Ontoserver® Terminology Capability Statement&quot;/&gt;&lt;status value=&quot;draft&quot;/&gt;&lt;experimental value=&quot;true&quot;/&gt;&lt;date value=&quot;2019-10-18T20:33:45+10:00&quot;/&gt;&lt;publisher value=&quot;The Australian e-Health Research Centre, CSIRO&quot;/&gt;&lt;contact&gt;&lt;telecom&gt;&lt;system value=&quot;email&quot;/&gt;&lt;value value=&quot;ontoserver-support@csiro.au&quot;/&gt;&lt;/telecom&gt;&lt;/contact&gt;&lt;purpose value=&quot;Description of terminology service capabilities&quot;/&gt;&lt;kind value=&quot;capability&quot;/&gt;&lt;software&gt;&lt;name value=&quot;Ontoserver®&quot;/&gt;&lt;version value=&quot;6.0.0-SNAPSHOT&quot;/&gt;&lt;/software&gt;&lt;lockedDate value=&quot;false&quot;/&gt;&lt;codeSystem&gt;&lt;subsumption value=&quot;true&quot;/&gt;&lt;/codeSystem&gt;&lt;codeSystem&gt;&lt;uri value=&quot;http://snomed.info/sct&quot;/&gt;&lt;version&gt;&lt;compositional value=&quot;false&quot;/&gt;&lt;/version&gt;&lt;subsumption value=&quot;true&quot;/&gt;&lt;/codeSystem&gt;&lt;codeSystem&gt;&lt;uri value=&quot;http://loinc.org&quot;/&gt;&lt;version&gt;&lt;compositional value=&quot;false&quot;/&gt;&lt;/version&gt;&lt;subsumption value=&quot;true&quot;/&gt;&lt;/codeSystem&gt;&lt;expansion&gt;&lt;hierarchical value=&quot;false&quot;/&gt;&lt;paging value=&quot;true&quot;/&gt;&lt;textFilter value=&quot;Matching is word-prefix, any-order.&amp;#xa;Codes are returned in best-match-first order.&quot;/&gt;&lt;/expansion&gt;&lt;translation&gt;&lt;needsMap value=&quot;false&quot;/&gt;&lt;/translation&gt;&lt;closure&gt;&lt;translation value=&quot;false&quot;/&gt;&lt;/closure&gt;&lt;/TerminologyCapabilities&gt;
+</pre>
+</head></html>

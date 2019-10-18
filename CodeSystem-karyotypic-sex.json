@@ -1,0 +1,87 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "karyotypic-sex",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Karyotypic Sex</h2><div><p>Represents the chromosomal sex of an individual.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/karyotypic-sex defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_KARYOTYPE<a name=\"karyotypic-sex-UNKNOWN_KARYOTYPE\"> </a></td><td>Untyped or inconclusive karyotyping</td><td>Untyped or inconclusive karyotyping</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"karyotypic-sex-XX\"> </a></td><td>Female</td><td>Female</td></tr><tr><td style=\"white-space:nowrap\">XY<a name=\"karyotypic-sex-XY\"> </a></td><td>Male</td><td>Male</td></tr><tr><td style=\"white-space:nowrap\">XO<a name=\"karyotypic-sex-XO\"> </a></td><td>Single X chromosome only</td><td>Single X chromosome only</td></tr><tr><td style=\"white-space:nowrap\">XXY<a name=\"karyotypic-sex-XXY\"> </a></td><td>Two X and one Y chromosome</td><td>Two X and one Y chromosome</td></tr><tr><td style=\"white-space:nowrap\">XXX<a name=\"karyotypic-sex-XXX\"> </a></td><td>Three X chromosomes</td><td>Three X chromosomes</td></tr><tr><td style=\"white-space:nowrap\">XXYY<a name=\"karyotypic-sex-XXYY\"> </a></td><td>Two X chromosomes and two Y chromosomes</td><td>Two X chromosomes and two Y chromosomes</td></tr><tr><td style=\"white-space:nowrap\">XXXY<a name=\"karyotypic-sex-XXXY\"> </a></td><td>Three X chromosomes and one Y chromosome</td><td>Three X chromosomes and one Y chromosome</td></tr><tr><td style=\"white-space:nowrap\">XXXX<a name=\"karyotypic-sex-XXXX\"> </a></td><td>Four X chromosomes</td><td>Four X chromosomes</td></tr><tr><td style=\"white-space:nowrap\">XYY<a name=\"karyotypic-sex-XYY\"> </a></td><td>One X and two Y chromosomes</td><td>One X and two Y chromosomes</td></tr><tr><td style=\"white-space:nowrap\">OTHER_KARYOTYPE<a name=\"karyotypic-sex-OTHER_KARYOTYPE\"> </a></td><td>None of the above types</td><td>None of the above types</td></tr></table></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/CodeSystem/karyotypic-sex",
+  "version": "0.1.0",
+  "name": "KaryotypicSex",
+  "title": "Karyotypic Sex",
+  "status": "active",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "Represents the chromosomal sex of an individual.",
+  "caseSensitive": false,
+  "valueSet": "http://ga4gh.org/fhir/phenopackets/CodeSystem/karyotypic-sex?vs",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "UNKNOWN_KARYOTYPE",
+      "display": "Untyped or inconclusive karyotyping",
+      "definition": "Untyped or inconclusive karyotyping"
+    },
+    {
+      "code": "XX",
+      "display": "Female",
+      "definition": "Female"
+    },
+    {
+      "code": "XY",
+      "display": "Male",
+      "definition": "Male"
+    },
+    {
+      "code": "XO",
+      "display": "Single X chromosome only",
+      "definition": "Single X chromosome only"
+    },
+    {
+      "code": "XXY",
+      "display": "Two X and one Y chromosome",
+      "definition": "Two X and one Y chromosome"
+    },
+    {
+      "code": "XXX",
+      "display": "Three X chromosomes",
+      "definition": "Three X chromosomes"
+    },
+    {
+      "code": "XXYY",
+      "display": "Two X chromosomes and two Y chromosomes",
+      "definition": "Two X chromosomes and two Y chromosomes"
+    },
+    {
+      "code": "XXXY",
+      "display": "Three X chromosomes and one Y chromosome",
+      "definition": "Three X chromosomes and one Y chromosome"
+    },
+    {
+      "code": "XXXX",
+      "display": "Four X chromosomes",
+      "definition": "Four X chromosomes"
+    },
+    {
+      "code": "XYY",
+      "display": "One X and two Y chromosomes",
+      "definition": "One X and two Y chromosomes"
+    },
+    {
+      "code": "OTHER_KARYOTYPE",
+      "display": "None of the above types",
+      "definition": "None of the above types"
+    }
+  ]
+}

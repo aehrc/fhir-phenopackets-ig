@@ -1,0 +1,70 @@
+{
+  "resourceType": "ValueSet",
+  "id": "landmark-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Landmark Type</h2><div><p>The type of feature that constitutes the landmark, for example, particularly if the landmark is an acquired body structure or physical object. The landmark type value set is part of BodyLocation, a flexible structure that allows the location to be determined by a single code, or a code plus laterality and/or orientation. The body location can also be specified in relation to one or more body landmarks. SNOMED CT is used in all cases.</p>\n<ul>\n<li>Code only: The code should include (precoordinate) laterality and/orientation to the degree necessary to completely specify the body location.</li>\n<li>Code plus laterality and/or orientation: The basic code augmented by codes specifying the body side and/or anatomical orientation.</li>\n<li>Relation to landmark: The location relative to a landmark is specified by:</li>\n</ul>\n<ol>\n<li>Establishing the location and type of landmark using a body site code and optional laterality/orientation, and</li>\n<li>Specifying the direction and distance from the landmark to the body location.</li>\n</ol>\n<p>Note that BodyLocation is a data type (a reusable structure), not a stand-alone entity. The concept is similar to how a postal address can apply to a person, location, or organization. This contrasts with FHIR's stand-alone BodySite (aka BodyStructure in r4) which 'is not ... intended for describing the type of anatomical location but rather a specific body site on a specific patient' (FHIR 3.5).</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  40388003</li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=361083003\">361083003</a></td><td>Normal anatomy (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=341000119102\">341000119102</a></td><td>Tattoo of skin</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=275322007\">275322007</a></td><td>Scar</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=38033009\">38033009</a></td><td>Amputation stump (body structure)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=13136005\">13136005</a></td><td>Injection site (morphologic abnormality)</td><td/></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=43526002\">43526002</a></td><td>Operative site (morphologic abnormality)</td><td/></tr></table></li></ul></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/ValueSet/landmark-type",
+  "version": "0.1.0",
+  "name": "LandmarkType",
+  "title": "Landmark Type",
+  "status": "draft",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "The type of feature that constitutes the landmark, for example, particularly if the landmark is an acquired body structure or physical object. The landmark type value set is part of BodyLocation, a flexible structure that allows the location to be determined by a single code, or a code plus laterality and/or orientation. The body location can also be specified in relation to one or more body landmarks. SNOMED CT is used in all cases.\n\n* Code only: The code should include (precoordinate) laterality and/orientation to the degree necessary to completely specify the body location.\n* Code plus laterality and/or orientation: The basic code augmented by codes specifying the body side and/or anatomical orientation.\n* Relation to landmark: The location relative to a landmark is specified by:\n1. Establishing the location and type of landmark using a body site code and optional laterality/orientation, and\n2. Specifying the direction and distance from the landmark to the body location.\n\nNote that BodyLocation is a data type (a reusable structure), not a stand-alone entity. The concept is similar to how a postal address can apply to a person, location, or organization. This contrasts with FHIR's stand-alone BodySite (aka BodyStructure in r4) which 'is not ... intended for describing the type of anatomical location but rather a specific body site on a specific patient' (FHIR 3.5).",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "is-a",
+            "value": "40388003"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "361083003",
+            "display": "Normal anatomy (body structure)"
+          },
+          {
+            "code": "341000119102",
+            "display": "Tattoo of skin"
+          },
+          {
+            "code": "275322007",
+            "display": "Scar"
+          },
+          {
+            "code": "38033009",
+            "display": "Amputation stump (body structure)"
+          },
+          {
+            "code": "13136005",
+            "display": "Injection site (morphologic abnormality)"
+          },
+          {
+            "code": "43526002",
+            "display": "Operative site (morphologic abnormality)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="phenotypic-feature-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Phenotypic Feature Type</h2><div><p>The primary ontology class which describes the phenotype.</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0000118</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  404684003</li></ul></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-type"/>
+  <version value="0.1.0"/>
+  <name value="PhenotypicFeatureType"/>
+  <title value="Phenotypic Feature Type"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-10-18T20:32:59+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="The primary ontology class which describes the phenotype."/>
+  <compose>
+    <include>
+      <system value="http://purl.obolibrary.org/obo/hp.owl"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="HP:0000118"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="404684003"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

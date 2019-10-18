@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "phenotypic-feature-severity",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenotypic Feature Severity</h2><div><p>Phenotypic feature severity from the Human Phenotype Ontology and SNOMED CT.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0012824</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  272141005</li></ul></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-severity",
+  "version": "0.1.0",
+  "name": "PhenotypicFeatureSeverity",
+  "title": "Phenotypic Feature Severity",
+  "status": "draft",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "Phenotypic feature severity from the Human Phenotype Ontology and SNOMED CT.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/hp.owl",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "HP:0012824"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "filter": [
+          {
+            "property": "concept",
+            "op": "descendent-of",
+            "value": "272141005"
+          }
+        ]
+      }
+    ]
+  }
+}

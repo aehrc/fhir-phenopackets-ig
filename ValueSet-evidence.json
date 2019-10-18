@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "evidence",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Evidence</h2><div><p>Codes from the Evidence &amp; Conclusion Ontology.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <code>http://purl.obolibrary.org/obo/eco.owl</code></li></ul></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/ValueSet/evidence",
+  "version": "0.1.0",
+  "name": "Evidence",
+  "title": "Evidence",
+  "status": "draft",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes from the Evidence & Conclusion Ontology.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/eco.owl"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="section-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Section Type</h2><div><p>Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard.</p>
+</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">observations<a name="section-type-observations"> </a></td><td>Observations</td><td>Observations</td></tr><tr><td style="white-space:nowrap">encounters<a name="section-type-encounters"> </a></td><td>Encounters</td><td>Encounters</td></tr><tr><td style="white-space:nowrap">diseases<a name="section-type-diseases"> </a></td><td>Diseases</td><td>Diseases</td></tr><tr><td style="white-space:nowrap">biosamples<a name="section-type-biosamples"> </a></td><td>Biosamples</td><td>Biosamples</td></tr><tr><td style="white-space:nowrap">genomics-reports<a name="section-type-genomics-reports"> </a></td><td>Genomics reports</td><td>Genomics reports</td></tr><tr><td style="white-space:nowrap">relatives<a name="section-type-relatives"> </a></td><td>Relatives</td><td>Relatives</td></tr><tr><td style="white-space:nowrap">pedigree<a name="section-type-pedigree"> </a></td><td>Pedigree</td><td>Pedigree</td></tr><tr><td style="white-space:nowrap">hts-files<a name="section-type-hts-files"> </a></td><td>HTS files</td><td>HTS files</td></tr><tr><td style="white-space:nowrap">members<a name="section-type-members"> </a></td><td>Members</td><td>Members</td></tr><tr><td style="white-space:nowrap">phenotypic-features<a name="section-type-phenotypic-features"> </a></td><td>Phenotypic features</td><td>Phenotypic features</td></tr></table></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type"/>
+  <version value="0.1.0"/>
+  <name value="SectionType"/>
+  <title value="Section Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-10-18T20:32:59+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard."/>
+  <caseSensitive value="false"/>
+  <valueSet value="http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type?vs"/>
+  <content value="complete"/>
+  <concept>
+    <code value="observations"/>
+    <display value="Observations"/>
+    <definition value="Observations"/>
+  </concept>
+  <concept>
+    <code value="encounters"/>
+    <display value="Encounters"/>
+    <definition value="Encounters"/>
+  </concept>
+  <concept>
+    <code value="diseases"/>
+    <display value="Diseases"/>
+    <definition value="Diseases"/>
+  </concept>
+  <concept>
+    <code value="biosamples"/>
+    <display value="Biosamples"/>
+    <definition value="Biosamples"/>
+  </concept>
+  <concept>
+    <code value="genomics-reports"/>
+    <display value="Genomics reports"/>
+    <definition value="Genomics reports"/>
+  </concept>
+  <concept>
+    <code value="relatives"/>
+    <display value="Relatives"/>
+    <definition value="Relatives"/>
+  </concept>
+  <concept>
+    <code value="pedigree"/>
+    <display value="Pedigree"/>
+    <definition value="Pedigree"/>
+  </concept>
+  <concept>
+    <code value="hts-files"/>
+    <display value="HTS files"/>
+    <definition value="HTS files"/>
+  </concept>
+  <concept>
+    <code value="members"/>
+    <display value="Members"/>
+    <definition value="Members"/>
+  </concept>
+  <concept>
+    <code value="phenotypic-features"/>
+    <display value="Phenotypic features"/>
+    <definition value="Phenotypic features"/>
+  </concept>
+</CodeSystem>

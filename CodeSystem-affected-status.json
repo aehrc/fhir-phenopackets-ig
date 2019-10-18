@@ -1,0 +1,47 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "affected-status",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Affected Status</h2><div><p>An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">missing<a name=\"affected-status-missing\"> </a></td><td>Missing</td><td>It is unknown whether the person is affected by the condition</td></tr><tr><td style=\"white-space:nowrap\">unaffected<a name=\"affected-status-unaffected\"> </a></td><td>Unaffected</td><td>Person is unaffected by the condition</td></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"affected-status-Affected\"> </a></td><td>Affected</td><td>Person is affected by the condition</td></tr></table></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status",
+  "version": "0.1.0",
+  "name": "AffectedStatus",
+  "title": "Affected Status",
+  "status": "active",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree.",
+  "caseSensitive": false,
+  "valueSet": "http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status?vs",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "missing",
+      "display": "Missing",
+      "definition": "It is unknown whether the person is affected by the condition"
+    },
+    {
+      "code": "unaffected",
+      "display": "Unaffected",
+      "definition": "Person is unaffected by the condition"
+    },
+    {
+      "code": "Affected",
+      "display": "Affected",
+      "definition": "Person is affected by the condition"
+    }
+  ]
+}

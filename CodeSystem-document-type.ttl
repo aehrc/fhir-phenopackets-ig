@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "document-type"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Document Type</h2><div><p>Represents the different types of documents in the Phenopackets standard.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">phenopacket<a name=\"document-type-phenopacket\"> </a></td><td>Phenopacket</td><td>Phenopacket</td></tr><tr><td style=\"white-space:nowrap\">family<a name=\"document-type-family\"> </a></td><td>Family</td><td>Family</td></tr><tr><td style=\"white-space:nowrap\">cohort<a name=\"document-type-cohort\"> </a></td><td>Cohort</td><td>Cohort</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "DocumentType"];
+  fhir:CodeSystem.title [ fhir:value "Document Type"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2019-10-18T20:32:59+10:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Global Alliance for Genomics and Health"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://ga4gh.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Represents the different types of documents in the Phenopackets standard."];
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.valueSet [
+     fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type?vs";
+     fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type?vs>
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "phenopacket" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Phenopacket" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Phenopacket" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "family" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Family" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Family" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "cohort" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cohort" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Cohort" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

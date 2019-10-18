@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="pedigree-affected-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Pedigree Affected Status</h2><div><p>An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree.</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-affected-status.html"><code>http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status</code></a></li></ul></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/pedigree-affected-status"/>
+  <version value="0.1.0"/>
+  <name value="PedigreeAffectedStatus"/>
+  <title value="Pedigree Affected Status"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-10-18T20:32:59+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree."/>
+  <compose>
+    <include>
+      <system value="http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="secondary-cancer-disorder"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Secondary Cancer Disorder</h2><div><p>Types of secondary malignant neoplastic disease, coded in SNOMED CT. Use a code from the disorder hierarchy under secondary malignant neoplastic disease (SNOMED CT 128462008).</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  128462008</li></ul></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/secondary-cancer-disorder"/>
+  <version value="0.1.0"/>
+  <name value="SecondaryCancerDisorder"/>
+  <title value="Secondary Cancer Disorder"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-10-18T20:32:59+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="Types of secondary malignant neoplastic disease, coded in SNOMED CT. Use a code from the disorder hierarchy under secondary malignant neoplastic disease (SNOMED CT 128462008)."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="128462008"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

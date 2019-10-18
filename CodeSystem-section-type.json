@@ -1,0 +1,82 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "section-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Section Type</h2><div><p>Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">observations<a name=\"section-type-observations\"> </a></td><td>Observations</td><td>Observations</td></tr><tr><td style=\"white-space:nowrap\">encounters<a name=\"section-type-encounters\"> </a></td><td>Encounters</td><td>Encounters</td></tr><tr><td style=\"white-space:nowrap\">diseases<a name=\"section-type-diseases\"> </a></td><td>Diseases</td><td>Diseases</td></tr><tr><td style=\"white-space:nowrap\">biosamples<a name=\"section-type-biosamples\"> </a></td><td>Biosamples</td><td>Biosamples</td></tr><tr><td style=\"white-space:nowrap\">genomics-reports<a name=\"section-type-genomics-reports\"> </a></td><td>Genomics reports</td><td>Genomics reports</td></tr><tr><td style=\"white-space:nowrap\">relatives<a name=\"section-type-relatives\"> </a></td><td>Relatives</td><td>Relatives</td></tr><tr><td style=\"white-space:nowrap\">pedigree<a name=\"section-type-pedigree\"> </a></td><td>Pedigree</td><td>Pedigree</td></tr><tr><td style=\"white-space:nowrap\">hts-files<a name=\"section-type-hts-files\"> </a></td><td>HTS files</td><td>HTS files</td></tr><tr><td style=\"white-space:nowrap\">members<a name=\"section-type-members\"> </a></td><td>Members</td><td>Members</td></tr><tr><td style=\"white-space:nowrap\">phenotypic-features<a name=\"section-type-phenotypic-features\"> </a></td><td>Phenotypic features</td><td>Phenotypic features</td></tr></table></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type",
+  "version": "0.1.0",
+  "name": "SectionType",
+  "title": "Section Type",
+  "status": "active",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard.",
+  "caseSensitive": false,
+  "valueSet": "http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type?vs",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "observations",
+      "display": "Observations",
+      "definition": "Observations"
+    },
+    {
+      "code": "encounters",
+      "display": "Encounters",
+      "definition": "Encounters"
+    },
+    {
+      "code": "diseases",
+      "display": "Diseases",
+      "definition": "Diseases"
+    },
+    {
+      "code": "biosamples",
+      "display": "Biosamples",
+      "definition": "Biosamples"
+    },
+    {
+      "code": "genomics-reports",
+      "display": "Genomics reports",
+      "definition": "Genomics reports"
+    },
+    {
+      "code": "relatives",
+      "display": "Relatives",
+      "definition": "Relatives"
+    },
+    {
+      "code": "pedigree",
+      "display": "Pedigree",
+      "definition": "Pedigree"
+    },
+    {
+      "code": "hts-files",
+      "display": "HTS files",
+      "definition": "HTS files"
+    },
+    {
+      "code": "members",
+      "display": "Members",
+      "definition": "Members"
+    },
+    {
+      "code": "phenotypic-features",
+      "display": "Phenotypic features",
+      "definition": "Phenotypic features"
+    }
+  ]
+}

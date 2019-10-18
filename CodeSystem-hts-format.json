@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "hts-format",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HTS Format</h2><div><p>An enumeration used to represent different high-throughput sequencing file formats.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/hts-format defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN<a name=\"hts-format-UNKNOWN\"> </a></td><td>Unknown</td><td>An HTS file of unknown type</td></tr><tr><td style=\"white-space:nowrap\">SAM<a name=\"hts-format-SAM\"> </a></td><td>SAM</td><td>Sequence Alignment Map (SAM) file</td></tr><tr><td style=\"white-space:nowrap\">BAM<a name=\"hts-format-BAM\"> </a></td><td>BAM</td><td>Binary Alignment Map (BAM) file</td></tr><tr><td style=\"white-space:nowrap\">CRAM<a name=\"hts-format-CRAM\"> </a></td><td>CRAM</td><td>CRAM file</td></tr><tr><td style=\"white-space:nowrap\">VCF<a name=\"hts-format-VCF\"> </a></td><td>VCF</td><td>Variant Call Format (VCF) file</td></tr><tr><td style=\"white-space:nowrap\">BCF<a name=\"hts-format-BCF\"> </a></td><td>BCF</td><td>Binary Variant Call Format (BCF) file</td></tr><tr><td style=\"white-space:nowrap\">GVCF<a name=\"hts-format-GVCF\"> </a></td><td>GVCF</td><td>Genomic Variant Call Format (GVCF) file</td></tr></table></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/CodeSystem/hts-format",
+  "version": "0.1.0",
+  "name": "HtsFormat",
+  "title": "HTS Format",
+  "status": "active",
+  "experimental": false,
+  "date": "2019-10-18T20:32:59+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "An enumeration used to represent different high-throughput sequencing file formats.",
+  "caseSensitive": false,
+  "valueSet": "http://ga4gh.org/fhir/phenopackets/CodeSystem/hts-format?vs",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "UNKNOWN",
+      "display": "Unknown",
+      "definition": "An HTS file of unknown type"
+    },
+    {
+      "code": "SAM",
+      "display": "SAM",
+      "definition": "Sequence Alignment Map (SAM) file"
+    },
+    {
+      "code": "BAM",
+      "display": "BAM",
+      "definition": "Binary Alignment Map (BAM) file"
+    },
+    {
+      "code": "CRAM",
+      "display": "CRAM",
+      "definition": "CRAM file"
+    },
+    {
+      "code": "VCF",
+      "display": "VCF",
+      "definition": "Variant Call Format (VCF) file"
+    },
+    {
+      "code": "BCF",
+      "display": "BCF",
+      "definition": "Binary Variant Call Format (BCF) file"
+    },
+    {
+      "code": "GVCF",
+      "display": "GVCF",
+      "definition": "Genomic Variant Call Format (GVCF) file"
+    }
+  ]
+}
