@@ -7,9 +7,10 @@
   },
   "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-affected-status",
   "version": "0.1.0",
-  "name": "AffectedStatus",
+  "name": "PedigreeNodeAffectedStatus",
+  "title": "Pedigree Node Affected Status",
   "status": "draft",
-  "date": "2019-10-18T20:32:59+10:00",
+  "date": "2019-11-29T14:40:16+10:00",
   "publisher": "Global Alliance for Genomics and Health",
   "contact": [
     {
@@ -23,7 +24,7 @@
     }
   ],
   "description": "Indicates if the individual has the affected phenotype of the proband.",
-  "fhirVersion": "4.0.0",
+  "fhirVersion": "4.0.1",
   "mapping": [
     {
       "identity": "rim",
@@ -66,7 +67,7 @@
             "human": "All FHIR elements must have a @value or children",
             "expression": "hasValue() or (children().count() > id.count())",
             "xpath": "@value|f:*|h:div",
-            "source": "Element"
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
           },
           {
             "key": "ext-1",
@@ -74,7 +75,7 @@
             "human": "Must have either extensions or value[x], not both",
             "expression": "extension.exists() != value.exists()",
             "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
-            "source": "Extension"
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
           }
         ],
         "isModifier": false
@@ -96,7 +97,13 @@
         },
         "type": [
           {
-            "code": "string"
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+                "valueUrl": "string"
+              }
+            ],
+            "code": "http://hl7.org/fhirpath/System.String"
           }
         ],
         "isModifier": false,
@@ -133,6 +140,24 @@
         "type": [
           {
             "code": "Extension"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          },
+          {
+            "key": "ext-1",
+            "severity": "error",
+            "human": "Must have either extensions or value[x], not both",
+            "expression": "extension.exists() != value.exists()",
+            "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+            "source": "http://hl7.org/fhir/StructureDefinition/Extension"
           }
         ],
         "isModifier": false,
@@ -196,6 +221,16 @@
             "code": "Coding"
           }
         ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          }
+        ],
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -221,6 +256,16 @@
         "type": [
           {
             "code": "Coding"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
         "isModifier": false,

@@ -3,7 +3,7 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="onset"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Onset</h2><div><p>Onset terms from the Human Phenotype Ontology and SNOMED CT.</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Onset</h2><div><p>Onset codes from the Human Phenotype Ontology and SNOMED CT.</p>
 </div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0003674</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  282032007</li></ul></div>
   </text>
   <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/onset"/>
@@ -12,7 +12,7 @@
   <title value="Onset"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2019-10-18T20:32:59+10:00"/>
+  <date value="2019-11-29T14:40:16+10:00"/>
   <publisher value="Global Alliance for Genomics and Health"/>
   <contact>
     <telecom>
@@ -20,7 +20,7 @@
       <value value="http://ga4gh.org"/>
     </telecom>
   </contact>
-  <description value="Onset terms from the Human Phenotype Ontology and SNOMED CT."/>
+  <description value="Onset codes from the Human Phenotype Ontology and SNOMED CT."/>
   <compose>
     <include>
       <system value="http://purl.obolibrary.org/obo/hp.owl"/>

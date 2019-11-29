@@ -4,7 +4,7 @@
   <id value="section-type"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Section Type</h2><div><p>Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard.</p>
-</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">observations<a name="section-type-observations"> </a></td><td>Observations</td><td>Observations</td></tr><tr><td style="white-space:nowrap">encounters<a name="section-type-encounters"> </a></td><td>Encounters</td><td>Encounters</td></tr><tr><td style="white-space:nowrap">diseases<a name="section-type-diseases"> </a></td><td>Diseases</td><td>Diseases</td></tr><tr><td style="white-space:nowrap">biosamples<a name="section-type-biosamples"> </a></td><td>Biosamples</td><td>Biosamples</td></tr><tr><td style="white-space:nowrap">genomics-reports<a name="section-type-genomics-reports"> </a></td><td>Genomics reports</td><td>Genomics reports</td></tr><tr><td style="white-space:nowrap">relatives<a name="section-type-relatives"> </a></td><td>Relatives</td><td>Relatives</td></tr><tr><td style="white-space:nowrap">pedigree<a name="section-type-pedigree"> </a></td><td>Pedigree</td><td>Pedigree</td></tr><tr><td style="white-space:nowrap">hts-files<a name="section-type-hts-files"> </a></td><td>HTS files</td><td>HTS files</td></tr><tr><td style="white-space:nowrap">members<a name="section-type-members"> </a></td><td>Members</td><td>Members</td></tr><tr><td style="white-space:nowrap">phenotypic-features<a name="section-type-phenotypic-features"> </a></td><td>Phenotypic features</td><td>Phenotypic features</td></tr></table></div>
+</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">observations<a name="section-type-observations"> </a></td><td>Observations</td><td>Observations</td></tr><tr><td style="white-space:nowrap">encounters<a name="section-type-encounters"> </a></td><td>Encounters</td><td>Encounters</td></tr><tr><td style="white-space:nowrap">diseases<a name="section-type-diseases"> </a></td><td>Diseases</td><td>Diseases</td></tr><tr><td style="white-space:nowrap">biosamples<a name="section-type-biosamples"> </a></td><td>Biosamples</td><td>Biosamples</td></tr><tr><td style="white-space:nowrap">genomics-reports<a name="section-type-genomics-reports"> </a></td><td>Genomics reports</td><td>Genomics reports</td></tr><tr><td style="white-space:nowrap">relatives<a name="section-type-relatives"> </a></td><td>Relatives</td><td>Relatives</td></tr><tr><td style="white-space:nowrap">pedigree<a name="section-type-pedigree"> </a></td><td>Pedigree</td><td>Pedigree</td></tr><tr><td style="white-space:nowrap">hts-files<a name="section-type-hts-files"> </a></td><td>HTS files</td><td>HTS files</td></tr><tr><td style="white-space:nowrap">members<a name="section-type-members"> </a></td><td>Members</td><td>Members</td></tr><tr><td style="white-space:nowrap">phenotypic-features<a name="section-type-phenotypic-features"> </a></td><td>Phenotypic features</td><td>Phenotypic features</td></tr><tr><td style="white-space:nowrap">variants<a name="section-type-variants"> </a></td><td>Variants</td><td>Variants</td></tr></table></div>
   </text>
   <url value="http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type"/>
   <version value="0.1.0"/>
@@ -12,7 +12,7 @@
   <title value="Section Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2019-10-18T20:32:59+10:00"/>
+  <date value="2019-11-29T14:40:16+10:00"/>
   <publisher value="Global Alliance for Genomics and Health"/>
   <contact>
     <telecom>
@@ -73,5 +73,10 @@
     <code value="phenotypic-features"/>
     <display value="Phenotypic features"/>
     <definition value="Phenotypic features"/>
+  </concept>
+  <concept>
+    <code value="variants"/>
+    <display value="Variants"/>
+    <definition value="Variants"/>
   </concept>
 </CodeSystem>

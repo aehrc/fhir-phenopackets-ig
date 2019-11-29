@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="tumor-grade"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Tumor Grade</h2><div><p>Codes to indicate the grade of a tumor.</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/ncit.owl</code> where concept  descends from  NCIT:C28076</li></ul></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/tumor-grade"/>
+  <version value="0.1.0"/>
+  <name value="TumorGrade"/>
+  <title value="Tumor Grade"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-11-29T14:40:16+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes to indicate the grade of a tumor."/>
+  <compose>
+    <include>
+      <system value="http://purl.obolibrary.org/obo/ncit.owl"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="NCIT:C28076"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

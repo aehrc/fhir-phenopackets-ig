@@ -1,0 +1,1016 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ga4gh.fhir.phenopackets",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenopackets</h2><p>The official URL for this implementation guide is: </p><pre>http://ga4gh.org/fhir/phenopackets/ImplementationGuide/ga4gh.fhir.phenopackets</pre><div><p>An open standard for sharing disease and phenotype information will improve our ability to understand, diagnose, and treat both rare and common diseases. A PhenoPacket links detailed phenotype descriptions with disease, patient, and genetic information, enabling clinicians, biologists, and disease and drug researchers to build more complete models of disease. The standard is designed to encourage wide adoption and synergy between the people, organizations and systems that comprise the joint effort to address human disease and biological understanding.</p>\n</div></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/ImplementationGuide/ga4gh.fhir.phenopackets",
+  "version": "0.1.0",
+  "name": "Phenopackets",
+  "title": "Phenopackets",
+  "status": "draft",
+  "date": "2019-11-29T14:40:16+10:00",
+  "contact": [
+    {
+      "name": "Alejandro Metke",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "alejandro.metke@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "An open standard for sharing disease and phenotype information will improve our ability to understand, diagnose, and treat both rare and common diseases. A PhenoPacket links detailed phenotype descriptions with disease, patient, and genetic information, enabling clinicians, biologists, and disease and drug researchers to build more complete models of disease. The standard is designed to encourage wide adoption and synergy between the people, organizations and systems that comprise the joint effort to address human disease and biological understanding.",
+  "packageId": "ga4gh.fhir.phenopackets",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "uri": "http://hl7.org/fhir/uv/genomics-reporting",
+      "packageId": "hl7.fhir.uv.genomics-reporting",
+      "version": "1.0.0"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-affected-status.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/affected-status",
+          "display": "Affected Status Code System"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-document-type.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/document-type",
+          "display": "Document Type Code System"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-family-member-type.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/family-member-type",
+          "display": "Family Member Type Code System"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-hts-format.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/hts-format",
+          "display": "HTS Format Code System"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-karyotypic-sex.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/karyotypic-sex",
+          "display": "Karyotypic Sex Code System"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-section-type.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/section-type",
+          "display": "Section Type Code System"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-biosample-control.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/biosample-control",
+          "display": "Biosample Control Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-biosample-diagnostic-markers.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/biosample-diagnostic-markers",
+          "display": "Biosample Diagnostic Markers Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-biosample-histological-diagnosis.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/biosample-histological-diagnosis",
+          "display": "Histological Diagnosis Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-biosample-individual-age-at-collection.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/biosample-individual-age-at-collection",
+          "display": "Biosample Individual Age at Collection Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-biosample-tumor-grade.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/biosample-tumor-grade",
+          "display": "Biosample Tumor Grade Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-biosample-tumor-progression.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/biosample-tumor-progression",
+          "display": "Biosample Tumor Progression Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Biosample.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Biosample",
+          "display": "Biosample Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Cohort.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Cohort",
+          "display": "Cohort Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-disease-onset.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/disease-onset",
+          "display": "Disease Onset Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-disease-tumor-stage.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/disease-tumor-stage",
+          "display": "Disease Tumor Stage Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Disease.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Disease",
+          "display": "Disease Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-evidence.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/evidence",
+          "display": "Evidence Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-external-reference.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/external-reference",
+          "display": "External Reference Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-family-member-phenopacket.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/family-member-phenopacket",
+          "display": "Family Member Phenopacket Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-family-member-type.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/family-member-type",
+          "display": "Family Member Type Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Family.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Family",
+          "display": "Family Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-htsfile-genome-assembly.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/htsfile-genome-assembly",
+          "display": "HTS File Genome Assembly Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-HtsFile.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/HtsFile",
+          "display": "HTS File Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-htsfiles.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/htsfiles",
+          "display": "HTS Files Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-individual-age.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/individual-age",
+          "display": "Individual Age Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-individual-karyotypic-sex.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/individual-karyotypic-sex",
+          "display": "Individual Karyotypic Sex Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-individual-taxonomy.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/individual-taxonomy",
+          "display": "Individual Taxonomy Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Individual.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Individual",
+          "display": "Individual Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-interpretation-phenopacket.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/interpretation-phenopacket",
+          "display": "Interpretation Phenopacket Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Interpretation.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Interpretation",
+          "display": "Interpretation Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-pedigree-node-affected-status.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/pedigree-node-affected-status",
+          "display": "Affected Status Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-pedigree-node-family-identifier.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/pedigree-node-family-identifier",
+          "display": "Family Identifier Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-pedigree-node-individual.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/pedigree-node-individual",
+          "display": "Pedigree Node Individual Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-pedigree-node.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/pedigree-node",
+          "display": "Pedigree Node Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-PedigreeNode.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PedigreeNode",
+          "display": "Pedigree Node Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-Phenopacket.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Phenopacket",
+          "display": "Phenopacket Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-phenotypic-feature-modifier.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/phenotypic-feature-modifier",
+          "display": "Phenotypic Feature Modifier Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-phenotypic-feature-onset.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/phenotypic-feature-onset",
+          "display": "Phenotypic Feature Onset Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-phenotypic-feature-severity.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/phenotypic-feature-severity",
+          "display": "Phenotypic Feature Severity Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-PhenotypicFeature.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PhenotypicFeature",
+          "display": "Phenotypic Feature Profile"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "StructureDefinition-variants.html"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/variants",
+          "display": "Variants Extension"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-diagnostic-markers.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/diagnostic-markers",
+          "display": "Diagnostic Markers Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-evidence.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/evidence",
+          "display": "Evidence Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-family-member-type.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/family-member-type",
+          "display": "Family Member Type Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-histological-diagnosis.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/histological-diagnosis",
+          "display": "Histological Diagnosis Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-hts-format.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/hts-format",
+          "display": "HTS Format Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-karyotypic-sex.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/karyotypic-sex",
+          "display": "Karyotypic Sex Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-onset.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/onset",
+          "display": "Onset Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-pedigree-affected-status.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/pedigree-affected-status",
+          "display": "Pedigree Affected Status Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-phenotypic-feature-interpretation.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/phenotypic-feature-interpretation",
+          "display": "Presence Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-phenotypic-feature-modifier.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/phenotypic-feature-modifier",
+          "display": "Phenotypic Feature Modifier Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-phenotypic-feature-severity.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/phenotypic-feature-severity",
+          "display": "Phenotypic Feature Severity Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-phenotypic-feature-type.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/phenotypic-feature-type",
+          "display": "Phenotype Type Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-taxonomy.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/taxonomy",
+          "display": "Taxonomy Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-tumor-grade.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/tumor-grade",
+          "display": "Tumor Grade Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-tumor-progression.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/tumor-progression",
+          "display": "Tumor Progression Value Set"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "ValueSet-tumor-stage.html"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/tumor-stage",
+          "display": "Tumor Stage Value Set"
+        }
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.md",
+      "title": "Table of Contents",
+      "generation": "generated",
+      "page": [
+        {
+          "nameUrl": "Home.html",
+          "title": "Home",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "Overview.html",
+              "title": "Overview",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "nameUrl": "Introduction.html",
+          "title": "Introduction",
+          "generation": "markdown",
+          "page": [
+            {
+              "nameUrl": "Purpose_Content_and_Organization.html",
+              "title": "Purpose Content and Organization",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "About_FHIR.html",
+              "title": "About FHIR",
+              "generation": "markdown"
+            },
+            {
+              "nameUrl": "About_Supporting_Specifications.html",
+              "title": "About Supporting Specifications",
+              "generation": "markdown"
+            }
+          ]
+        },
+        {
+          "nameUrl": "Credits.html",
+          "title": "Credits",
+          "generation": "markdown"
+        }
+      ]
+    }
+  }
+}

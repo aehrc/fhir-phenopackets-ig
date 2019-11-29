@@ -3,7 +3,7 @@
   "id": "phenotypic-feature-modifier",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenotypic Feature Modifier</h2><div><p>Clinical modifier terms from the Human Phenotype Ontology. TODO: include corresponding concepts from SNOMED CT.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0012823</li><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0031797</li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenotypic Feature Modifier</h2><div><p>Clinical modifier codes from the Human Phenotype Ontology. TODO: include corresponding codes from SNOMED CT.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0012823</li><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0031797</li></ul></div>"
   },
   "url": "http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-modifier",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
   "title": "Phenotypic Feature Modifier",
   "status": "draft",
   "experimental": false,
-  "date": "2019-10-18T20:32:59+10:00",
+  "date": "2019-11-29T14:40:16+10:00",
   "publisher": "Global Alliance for Genomics and Health",
   "contact": [
     {
@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "description": "Clinical modifier terms from the Human Phenotype Ontology. TODO: include corresponding concepts from SNOMED CT.",
+  "description": "Clinical modifier codes from the Human Phenotype Ontology. TODO: include corresponding codes from SNOMED CT.",
   "compose": {
     "include": [
       {

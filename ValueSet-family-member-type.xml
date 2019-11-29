@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="family-member-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Family Member Type</h2><div><p>Represents the types of members in a family.</p>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CodeSystem-family-member-type.html"><code>http://ga4gh.org/fhir/phenopackets/CodeSystem/family-member-type</code></a></li></ul></div>
+  </text>
+  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/family-member-type"/>
+  <version value="0.1.0"/>
+  <name value="FamilyMemberType"/>
+  <title value="Family Member Type"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2019-11-29T14:40:16+10:00"/>
+  <publisher value="Global Alliance for Genomics and Health"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ga4gh.org"/>
+    </telecom>
+  </contact>
+  <description value="Represents the types of members in a family."/>
+  <compose>
+    <include>
+      <system value="http://ga4gh.org/fhir/phenopackets/CodeSystem/family-member-type"/>
+    </include>
+  </compose>
+</ValueSet>

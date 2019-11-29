@@ -1,92 +1,72 @@
 ﻿Phenopackets : Validation Results
 =========================================
 
-err = 10, warn = 0, info = 0
-IG Publisher Version: v0.9.84-SNAPSHOT Out of date - current version is v0.9.86-SNAPSHOT
-Generated Fri Oct 18 20:35:14 AEST 2019. FHIR version 4.0.0 for ga4gh.fhir.phenopackets#0.1.0 (canonical = http://ga4gh.org/fhir/phenopackets)
+err = 2, warn = 0, info = 0
+IG Publisher Version: v0.9.96-SNAPSHOT Out of date - current version is v1.0.3-SNAPSHOT
+Generated Fri Nov 29 14:42:32 AEST 2019. FHIR version 4.0.1 for ga4gh.fhir.phenopackets#0.1.0 (canonical = http://ga4gh.org/fhir/phenopackets)
 
- Build Errors : 372 / 1
+ Build Errors : 280 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-affected-status : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-document-type : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-family-member-type : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-hts-format : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-karyotypic-sex : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-section-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/implementationguide/phenopackets : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/implementationguide/phenopackets : 1 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Biosample : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-CancerCondition : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-CancerStageGroup : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Cohort : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Disease : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Encounter-Phenopackets : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Family : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-GenomicsReport : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-HtsFile : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Individual : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Interpretation : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-PedigreeNode : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Phenopacket : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-PhenotypicFeature : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-PrimaryCancerCondition : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-SecondaryCancerCondition : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMClinicalDistantMetastasesCategory : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMClinicalPrimaryTumorCategory : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMClinicalRegionalNodesCategory : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMClinicalStageGroup : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMPathologicDistantMetastasesCategory : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMPathologicPrimaryTumorCategory : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMPathologicRegionalNodesCategory : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-TNMPathologicStageGroup : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-anatomical-orientation : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-control : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-diagnostic-markers : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-histological-diagnosis : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-individual-age-at-collection : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-code : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-tumor-grade : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-tumor-progression : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-disease-onset : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-disease-tumor-stage : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-evidence : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-external-reference : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-histology-morphology-behavior : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-family-member-phenopacket : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-family-member-type : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-htsfile-genome-assembly : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-htsfiles : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-individual-age : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-individual-karyotypic-sex : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-individual-taxonomy : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-landmark-location : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-landmark-to-body-location-direction : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-landmark-to-body-location-distance : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-landmark-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-laterality : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-interpretation-phenopacket : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node-affected-status : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node-family-identifier : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node-individual : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-phenotypic-feature-modifier : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-phenotypic-feature-onset : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-phenotypic-feature-severity : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-primary-cancer-condition : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-relation-to-landmark : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-anatomical-direction : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-anatomical-orientation : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-cancer-body-location : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-cancer-staging-system : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-variants : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-diagnostic-markers : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-evidence : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-histology-morphology-behavior : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-family-member-type : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-histological-diagnosis : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-hts-format : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-karyotypic-sex : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-landmark-type : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-onset : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-pedigree-affected-status : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-interpretation : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-modifier : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-severity : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-primary-or-uncertain-behavior-cancer-disorder : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-secondary-cancer-disorder : 0 / 0
  /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-taxonomy : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tnm-distant-metastases-category : 1 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tnm-primary-tumor-category : 1 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tnm-regional-nodes-category : 1 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tnm-stage-group : 1 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-units-of-length : 1 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tumor-grade : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tumor-progression : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tumor-stage : 0 / 0
 </table>
 == n/a ==
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be ga4gh.fhir.phenopackets
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.html: The html source does not contain the publish box <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader--> (see note at http://wiki.hl7.org/index.php?title=FHIR_Implementation_Guide_Publishing_Requirements#HL7_HTML_Standards_considerations)
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.ttl.html: The html source does not contain the publish box
@@ -95,6 +75,10 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSyst
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.ttl.html: The html source does not contain the publish box
@@ -107,25 +91,15 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSyst
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets-0.1.0.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets-0.1.0.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets-0.1.0.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets-0.1.0.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerCondition-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerCondition.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerCondition.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerCondition.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerCondition.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerStageGroup-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerStageGroup.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerStageGroup.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerStageGroup.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-CancerStageGroup.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort.json.html: The html source does not contain the publish box
@@ -136,21 +110,11 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Encounter-Phenopackets-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Encounter-Phenopackets.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Encounter-Phenopackets.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Encounter-Phenopackets.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Encounter-Phenopackets.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-GenomicsReport-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-GenomicsReport.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-GenomicsReport.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-GenomicsReport.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-GenomicsReport.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile.json.html: The html source does not contain the publish box
@@ -161,6 +125,11 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode.json.html: The html source does not contain the publish box
@@ -176,81 +145,46 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PrimaryCancerCondition-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PrimaryCancerCondition.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PrimaryCancerCondition.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PrimaryCancerCondition.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PrimaryCancerCondition.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-SecondaryCancerCondition-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-SecondaryCancerCondition.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-SecondaryCancerCondition.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-SecondaryCancerCondition.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-SecondaryCancerCondition.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalDistantMetastasesCategory-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalDistantMetastasesCategory.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalDistantMetastasesCategory.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalDistantMetastasesCategory.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalDistantMetastasesCategory.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalPrimaryTumorCategory-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalPrimaryTumorCategory.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalPrimaryTumorCategory.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalPrimaryTumorCategory.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalPrimaryTumorCategory.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalRegionalNodesCategory-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalRegionalNodesCategory.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalRegionalNodesCategory.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalRegionalNodesCategory.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalRegionalNodesCategory.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalStageGroup-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalStageGroup.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalStageGroup.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalStageGroup.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMClinicalStageGroup.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicDistantMetastasesCategory-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicDistantMetastasesCategory.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicDistantMetastasesCategory.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicDistantMetastasesCategory.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicDistantMetastasesCategory.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicPrimaryTumorCategory-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicPrimaryTumorCategory.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicPrimaryTumorCategory.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicPrimaryTumorCategory.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicPrimaryTumorCategory.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicRegionalNodesCategory-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicRegionalNodesCategory.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicRegionalNodesCategory.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicRegionalNodesCategory.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicRegionalNodesCategory.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicStageGroup-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicStageGroup.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicStageGroup.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicStageGroup.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-TNMPathologicStageGroup.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-anatomical-orientation-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-anatomical-orientation.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-anatomical-orientation.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-anatomical-orientation.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-anatomical-orientation.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-code-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-code.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-code.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-code.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-code.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence.json.html: The html source does not contain the publish box
@@ -261,11 +195,16 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-histology-morphology-behavior-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-histology-morphology-behavior.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-histology-morphology-behavior.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-histology-morphology-behavior.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-histology-morphology-behavior.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly.json.html: The html source does not contain the publish box
@@ -291,36 +230,17 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-location-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-location.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-location.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-location.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-location.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-direction-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-direction.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-direction.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-direction.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-direction.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-distance-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-distance.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-distance.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-distance.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-to-body-location-distance.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-type-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-landmark-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-laterality-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-laterality.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-laterality.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-laterality.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-laterality.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier.json.html: The html source does not contain the publish box
@@ -331,6 +251,10 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier-definitions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier.json.html: The html source does not contain the publish box
@@ -346,40 +270,27 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/Structur
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-primary-cancer-condition-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-primary-cancer-condition.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-primary-cancer-condition.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-primary-cancer-condition.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-primary-cancer-condition.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-relation-to-landmark-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-relation-to-landmark.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-relation-to-landmark.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-relation-to-landmark.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-relation-to-landmark.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-direction.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-direction.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-direction.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-direction.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-orientation.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-orientation.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-orientation.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-anatomical-orientation.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-body-location.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-body-location.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-body-location.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-body-location.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-staging-system.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-staging-system.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-staging-system.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-cancer-staging-system.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants-definitions.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histology-morphology-behavior.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histology-morphology-behavior.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histology-morphology-behavior.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histology-morphology-behavior.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.ttl.html: The html source does not contain the publish box
@@ -388,10 +299,6 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-landmark-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-landmark-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-landmark-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-landmark-type.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.ttl.html: The html source does not contain the publish box
@@ -416,134 +323,87 @@ ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-primary-or-uncertain-behavior-cancer-disorder.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-primary-or-uncertain-behavior-cancer-disorder.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-primary-or-uncertain-behavior-cancer-disorder.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-primary-or-uncertain-behavior-cancer-disorder.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-secondary-cancer-disorder.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-secondary-cancer-disorder.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-secondary-cancer-disorder.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-secondary-cancer-disorder.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.json.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.ttl.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-distant-metastases-category.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-distant-metastases-category.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-distant-metastases-category.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-distant-metastases-category.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-primary-tumor-category.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-primary-tumor-category.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-primary-tumor-category.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-primary-tumor-category.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-regional-nodes-category.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-regional-nodes-category.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-regional-nodes-category.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-regional-nodes-category.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-stage-group.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-stage-group.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-stage-group.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tnm-stage-group.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-units-of-length.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-units-of-length.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-units-of-length.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-units-of-length.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.xml.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.json.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.ttl.html: The html source does not contain the publish box
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.xml.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/downloads.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/examples.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/extensions.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/guidance.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/index.html: The html source does not contain the publish box
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/mapping.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/mapping.html#/html/head/link/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 346, column 31: The link 'StructureDefinition-Family' for "Family" cannot be resolved
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/mapping.html#/html/head/link/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 350, column 31: The link 'StructureDefinition-Cohort' for "Cohort" cannot be resolved
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/profiles.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/profiles.html#/html/head/link/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 285, column 6: The link 'StructureDefinition-Encounter_Phenopackets.html' for "Encounter - Phenopackets" cannot be resolved
 ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/terminology.html: The html source does not contain the publish box
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-affected-status.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-document-type.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-family-member-type.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-hts-format.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-karyotypic-sex.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-section-type.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/implementationguide/phenopackets.xml ==
+ERROR: ImplementationGuide/ga4gh.fhir.phenopackets: ImplementationGuide.dependsOn[0].uri: URL value 'http://hl7.org/fhir/uv/genomics-reporting' does not resolve
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Biosample.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-CancerCondition.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-CancerStageGroup.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Cohort.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Disease.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Encounter-Phenopackets.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Family.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-GenomicsReport.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-HtsFile.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Individual.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Interpretation.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-PedigreeNode.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Phenopacket.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-PhenotypicFeature.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-PrimaryCancerCondition.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-SecondaryCancerCondition.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMClinicalDistantMetastasesCategory.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMClinicalPrimaryTumorCategory.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMClinicalRegionalNodesCategory.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMClinicalStageGroup.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMPathologicDistantMetastasesCategory.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMPathologicPrimaryTumorCategory.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMPathologicRegionalNodesCategory.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-TNMPathologicStageGroup.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-anatomical-orientation.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-control.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-diagnostic-markers.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-histological-diagnosis.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-individual-age-at-collection.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-code.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-tumor-grade.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-tumor-progression.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-disease-onset.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-disease-tumor-stage.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-evidence.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-external-reference.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-histology-morphology-behavior.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-family-member-phenopacket.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-family-member-type.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-htsfile-genome-assembly.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-htsfiles.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-individual-age.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-individual-karyotypic-sex.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-individual-taxonomy.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-landmark-location.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-landmark-to-body-location-direction.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-landmark-to-body-location-distance.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-landmark-type.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-laterality.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-interpretation-phenopacket.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node-affected-status.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node-family-identifier.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node-individual.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-phenotypic-feature-modifier.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-phenotypic-feature-onset.xml ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-phenotypic-feature-severity.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-primary-cancer-condition.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-relation-to-landmark.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-anatomical-direction.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-anatomical-orientation.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-cancer-body-location.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-cancer-staging-system.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-variants.xml ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-diagnostic-markers.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-evidence.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-histology-morphology-behavior.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-family-member-type.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-histological-diagnosis.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-hts-format.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-karyotypic-sex.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-landmark-type.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-onset.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-pedigree-affected-status.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-interpretation.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-modifier.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-severity.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-type.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-primary-or-uncertain-behavior-cancer-disorder.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-secondary-cancer-disorder.json ==
 == /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-taxonomy.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tnm-distant-metastases-category.json ==
-ERROR: tnm-distant-metastases-category: Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@109f0ee9
-
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tnm-primary-tumor-category.json ==
-ERROR: tnm-primary-tumor-category: Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@109f0ee9
-
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tnm-regional-nodes-category.json ==
-ERROR: tnm-regional-nodes-category: Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@109f0ee9
-
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tnm-stage-group.json ==
-ERROR: tnm-stage-group: Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@109f0ee9
-
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-units-of-length.json ==
-ERROR: units-of-length: Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@465f419d
-
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tumor-grade.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tumor-progression.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tumor-stage.json ==

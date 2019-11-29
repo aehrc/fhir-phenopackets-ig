@@ -6,11 +6,15 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
 "Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"",""
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfiles""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
 "Extension.value[x]","","","",0,1,"","","","Reference {[]} {[]}
 ","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"","type:$this}
-","",,"closed","Extension.value[x]",0,1,"","","N/A"
-"Extension.value[x]","valueReference","","",0,1,"","","","Reference {[CanonicalType[http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFile]]} {[]}
-","A reference to a document","A reference to a document of any kind for any purpose. Provides metadata about the document so that the document can be discovered and managed. The scope of a document is any seralized object with a mime-type, so includes formal patient centric documents (CDA), cliical notes, scanned paper, and non-patient specific documents like policy text.","Usually, this is used for documents other than those defined by FHIR.","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","","Entity. Role, or Act","Document[classCode=""DOC"" and moodCode=""EVN""]"
+","",,"closed","Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A"
+"Extension.value[x]","valueReference","","",0,1,"","","","Reference {[]} {[CanonicalType[http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFile]]} (bundled
+)
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","N/A"

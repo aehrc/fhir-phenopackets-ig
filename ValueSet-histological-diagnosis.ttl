@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/ValueSet/histological-diagnosis> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "histological-diagnosis"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HistologicalDiagnosis</h2><div><p>Histological diagnosis codes from NCIT.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/ncit.owl</code> where concept  descends from  NCIT:C28101</li><li>Include codes from <code>http://purl.obolibrary.org/obo/ncit.owl</code> where concept  descends from  NCIT:C2991</li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/ValueSet/histological-diagnosis"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "HistologicalDiagnosis"];
+  fhir:ValueSet.title [ fhir:value "HistologicalDiagnosis"];
+  fhir:ValueSet.status [ fhir:value "draft"];
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:ValueSet.date [ fhir:value "2019-11-29T14:40:16+10:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Global Alliance for Genomics and Health"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://ga4gh.org" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Histological diagnosis codes from NCIT."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "descendent-of" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "NCIT:C28101" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/ncit.owl" ];
+       fhir:ValueSet.compose.include.filter [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "concept" ];
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "descendent-of" ];
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "NCIT:C2991" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/ValueSet/histological-diagnosis.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

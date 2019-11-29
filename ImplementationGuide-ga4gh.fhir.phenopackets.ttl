@@ -1,0 +1,1027 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/ImplementationGuide/ga4gh.fhir.phenopackets> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ga4gh.fhir.phenopackets"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenopackets</h2><p>The official URL for this implementation guide is: </p><pre>http://ga4gh.org/fhir/phenopackets/ImplementationGuide/ga4gh.fhir.phenopackets</pre><div><p>An open standard for sharing disease and phenotype information will improve our ability to understand, diagnose, and treat both rare and common diseases. A PhenoPacket links detailed phenotype descriptions with disease, patient, and genetic information, enabling clinicians, biologists, and disease and drug researchers to build more complete models of disease. The standard is designed to encourage wide adoption and synergy between the people, organizations and systems that comprise the joint effort to address human disease and biological understanding.</p>\n</div></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/ImplementationGuide/ga4gh.fhir.phenopackets"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.name [ fhir:value "Phenopackets"];
+  fhir:ImplementationGuide.title [ fhir:value "Phenopackets"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.date [ fhir:value "2019-11-29T14:40:16+10:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Alejandro Metke" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "alejandro.metke@csiro.au" ]
+     ]
+  ];
+  fhir:ImplementationGuide.description [ fhir:value "An open standard for sharing disease and phenotype information will improve our ability to understand, diagnose, and treat both rare and common diseases. A PhenoPacket links detailed phenotype descriptions with disease, patient, and genetic information, enabling clinicians, biologists, and disease and drug researchers to build more complete models of disease. The standard is designed to encourage wide adoption and synergy between the people, organizations and systems that comprise the joint effort to address human disease and biological understanding."];
+  fhir:ImplementationGuide.packageId [ fhir:value "ga4gh.fhir.phenopackets"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.dependsOn [
+     fhir:index 0;
+     fhir:ImplementationGuide.dependsOn.uri [
+       fhir:value "http://hl7.org/fhir/uv/genomics-reporting";
+       fhir:link <http://hl7.org/fhir/uv/genomics-reporting>
+     ];
+     fhir:ImplementationGuide.dependsOn.packageId [ fhir:value "hl7.fhir.uv.genomics-reporting" ];
+     fhir:ImplementationGuide.dependsOn.version [ fhir:value "1.0.0" ]
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-affected-status.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/affected-status>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/affected-status" ];
+         fhir:Reference.display [ fhir:value "Affected Status Code System" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-document-type.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/document-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/document-type" ];
+         fhir:Reference.display [ fhir:value "Document Type Code System" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-family-member-type.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/family-member-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/family-member-type" ];
+         fhir:Reference.display [ fhir:value "Family Member Type Code System" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-hts-format.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/hts-format>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/hts-format" ];
+         fhir:Reference.display [ fhir:value "HTS Format Code System" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-karyotypic-sex.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/karyotypic-sex>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/karyotypic-sex" ];
+         fhir:Reference.display [ fhir:value "Karyotypic Sex Code System" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "CodeSystem-section-type.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/CodeSystem/section-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/section-type" ];
+         fhir:Reference.display [ fhir:value "Section Type Code System" ]
+       ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-biosample-control.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-control>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/biosample-control" ];
+         fhir:Reference.display [ fhir:value "Biosample Control Extension" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-biosample-diagnostic-markers.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-diagnostic-markers>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/biosample-diagnostic-markers" ];
+         fhir:Reference.display [ fhir:value "Biosample Diagnostic Markers Extension" ]
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-biosample-histological-diagnosis.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-histological-diagnosis>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/biosample-histological-diagnosis" ];
+         fhir:Reference.display [ fhir:value "Histological Diagnosis Extension" ]
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-biosample-individual-age-at-collection.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-individual-age-at-collection>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/biosample-individual-age-at-collection" ];
+         fhir:Reference.display [ fhir:value "Biosample Individual Age at Collection Extension" ]
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-biosample-tumor-grade.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-tumor-grade>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/biosample-tumor-grade" ];
+         fhir:Reference.display [ fhir:value "Biosample Tumor Grade Extension" ]
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-biosample-tumor-progression.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-tumor-progression>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/biosample-tumor-progression" ];
+         fhir:Reference.display [ fhir:value "Biosample Tumor Progression Extension" ]
+       ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Biosample.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Biosample>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Biosample" ];
+         fhir:Reference.display [ fhir:value "Biosample Profile" ]
+       ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Cohort.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Cohort>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Cohort" ];
+         fhir:Reference.display [ fhir:value "Cohort Profile" ]
+       ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-disease-onset.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/disease-onset>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/disease-onset" ];
+         fhir:Reference.display [ fhir:value "Disease Onset Extension" ]
+       ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-disease-tumor-stage.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/disease-tumor-stage>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/disease-tumor-stage" ];
+         fhir:Reference.display [ fhir:value "Disease Tumor Stage Extension" ]
+       ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Disease.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Disease>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Disease" ];
+         fhir:Reference.display [ fhir:value "Disease Profile" ]
+       ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-evidence.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/evidence>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/evidence" ];
+         fhir:Reference.display [ fhir:value "Evidence Extension" ]
+       ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-external-reference.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/external-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/external-reference" ];
+         fhir:Reference.display [ fhir:value "External Reference Extension" ]
+       ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-family-member-phenopacket.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/family-member-phenopacket>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/family-member-phenopacket" ];
+         fhir:Reference.display [ fhir:value "Family Member Phenopacket Extension" ]
+       ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-family-member-type.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/family-member-type>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/family-member-type" ];
+         fhir:Reference.display [ fhir:value "Family Member Type Extension" ]
+       ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Family.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Family>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Family" ];
+         fhir:Reference.display [ fhir:value "Family Profile" ]
+       ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-htsfile-genome-assembly.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfile-genome-assembly>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/htsfile-genome-assembly" ];
+         fhir:Reference.display [ fhir:value "HTS File Genome Assembly Extension" ]
+       ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-HtsFile.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/HtsFile" ];
+         fhir:Reference.display [ fhir:value "HTS File Profile" ]
+       ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-htsfiles.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfiles>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/htsfiles" ];
+         fhir:Reference.display [ fhir:value "HTS Files Extension" ]
+       ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-individual-age.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-age>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/individual-age" ];
+         fhir:Reference.display [ fhir:value "Individual Age Extension" ]
+       ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-individual-karyotypic-sex.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-karyotypic-sex>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/individual-karyotypic-sex" ];
+         fhir:Reference.display [ fhir:value "Individual Karyotypic Sex Extension" ]
+       ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-individual-taxonomy.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-taxonomy>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/individual-taxonomy" ];
+         fhir:Reference.display [ fhir:value "Individual Taxonomy Extension" ]
+       ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Individual.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Individual>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Individual" ];
+         fhir:Reference.display [ fhir:value "Individual Profile" ]
+       ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-interpretation-phenopacket.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/interpretation-phenopacket>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/interpretation-phenopacket" ];
+         fhir:Reference.display [ fhir:value "Interpretation Phenopacket Extension" ]
+       ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Interpretation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Interpretation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Interpretation" ];
+         fhir:Reference.display [ fhir:value "Interpretation Profile" ]
+       ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-pedigree-node-affected-status.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-affected-status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/pedigree-node-affected-status" ];
+         fhir:Reference.display [ fhir:value "Affected Status Extension" ]
+       ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-pedigree-node-family-identifier.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-family-identifier>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/pedigree-node-family-identifier" ];
+         fhir:Reference.display [ fhir:value "Family Identifier Extension" ]
+       ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-pedigree-node-individual.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-individual>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/pedigree-node-individual" ];
+         fhir:Reference.display [ fhir:value "Pedigree Node Individual Extension" ]
+       ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-pedigree-node.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/pedigree-node" ];
+         fhir:Reference.display [ fhir:value "Pedigree Node Extension" ]
+       ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-PedigreeNode.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/PedigreeNode>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PedigreeNode" ];
+         fhir:Reference.display [ fhir:value "Pedigree Node Profile" ]
+       ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-Phenopacket.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/Phenopacket>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Phenopacket" ];
+         fhir:Reference.display [ fhir:value "Phenopacket Profile" ]
+       ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-phenotypic-feature-modifier.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-modifier>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/phenotypic-feature-modifier" ];
+         fhir:Reference.display [ fhir:value "Phenotypic Feature Modifier Extension" ]
+       ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-phenotypic-feature-onset.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-onset>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/phenotypic-feature-onset" ];
+         fhir:Reference.display [ fhir:value "Phenotypic Feature Onset Extension" ]
+       ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-phenotypic-feature-severity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-severity>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/phenotypic-feature-severity" ];
+         fhir:Reference.display [ fhir:value "Phenotypic Feature Severity Extension" ]
+       ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-PhenotypicFeature.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenotypicFeature>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/PhenotypicFeature" ];
+         fhir:Reference.display [ fhir:value "Phenotypic Feature Profile" ]
+       ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "StructureDefinition-variants.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/StructureDefinition/variants>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/variants" ];
+         fhir:Reference.display [ fhir:value "Variants Extension" ]
+       ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-diagnostic-markers.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/diagnostic-markers>;
+         fhir:Reference.reference [ fhir:value "ValueSet/diagnostic-markers" ];
+         fhir:Reference.display [ fhir:value "Diagnostic Markers Value Set" ]
+       ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-evidence.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/evidence>;
+         fhir:Reference.reference [ fhir:value "ValueSet/evidence" ];
+         fhir:Reference.display [ fhir:value "Evidence Value Set" ]
+       ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-family-member-type.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/family-member-type>;
+         fhir:Reference.reference [ fhir:value "ValueSet/family-member-type" ];
+         fhir:Reference.display [ fhir:value "Family Member Type Value Set" ]
+       ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-histological-diagnosis.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/histological-diagnosis>;
+         fhir:Reference.reference [ fhir:value "ValueSet/histological-diagnosis" ];
+         fhir:Reference.display [ fhir:value "Histological Diagnosis Value Set" ]
+       ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-hts-format.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/hts-format>;
+         fhir:Reference.reference [ fhir:value "ValueSet/hts-format" ];
+         fhir:Reference.display [ fhir:value "HTS Format Value Set" ]
+       ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-karyotypic-sex.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/karyotypic-sex>;
+         fhir:Reference.reference [ fhir:value "ValueSet/karyotypic-sex" ];
+         fhir:Reference.display [ fhir:value "Karyotypic Sex Value Set" ]
+       ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-onset.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/onset>;
+         fhir:Reference.reference [ fhir:value "ValueSet/onset" ];
+         fhir:Reference.display [ fhir:value "Onset Value Set" ]
+       ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-pedigree-affected-status.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/pedigree-affected-status>;
+         fhir:Reference.reference [ fhir:value "ValueSet/pedigree-affected-status" ];
+         fhir:Reference.display [ fhir:value "Pedigree Affected Status Value Set" ]
+       ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-phenotypic-feature-interpretation.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-interpretation>;
+         fhir:Reference.reference [ fhir:value "ValueSet/phenotypic-feature-interpretation" ];
+         fhir:Reference.display [ fhir:value "Presence Value Set" ]
+       ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-phenotypic-feature-modifier.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-modifier>;
+         fhir:Reference.reference [ fhir:value "ValueSet/phenotypic-feature-modifier" ];
+         fhir:Reference.display [ fhir:value "Phenotypic Feature Modifier Value Set" ]
+       ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-phenotypic-feature-severity.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-severity>;
+         fhir:Reference.reference [ fhir:value "ValueSet/phenotypic-feature-severity" ];
+         fhir:Reference.display [ fhir:value "Phenotypic Feature Severity Value Set" ]
+       ]
+     ], [
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-phenotypic-feature-type.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-type>;
+         fhir:Reference.reference [ fhir:value "ValueSet/phenotypic-feature-type" ];
+         fhir:Reference.display [ fhir:value "Phenotype Type Value Set" ]
+       ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-taxonomy.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/taxonomy>;
+         fhir:Reference.reference [ fhir:value "ValueSet/taxonomy" ];
+         fhir:Reference.display [ fhir:value "Taxonomy Value Set" ]
+       ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-tumor-grade.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/tumor-grade>;
+         fhir:Reference.reference [ fhir:value "ValueSet/tumor-grade" ];
+         fhir:Reference.display [ fhir:value "Tumor Grade Value Set" ]
+       ]
+     ], [
+       fhir:index 56;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-tumor-progression.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/tumor-progression>;
+         fhir:Reference.reference [ fhir:value "ValueSet/tumor-progression" ];
+         fhir:Reference.display [ fhir:value "Tumor Progression Value Set" ]
+       ]
+     ], [
+       fhir:index 57;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
+         fhir:Extension.valueUri [ fhir:value "ValueSet-tumor-stage.html" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://ga4gh.org/fhir/phenopackets/ValueSet/tumor-stage>;
+         fhir:Reference.reference [ fhir:value "ValueSet/tumor-stage" ];
+         fhir:Reference.display [ fhir:value "Tumor Stage Value Set" ]
+       ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.md" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "generated" ];
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index 0;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Home.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Overview.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Overview" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Introduction.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Introduction" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ];
+         fhir:ImplementationGuide.definition.page.page [
+           fhir:index 0;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Purpose_Content_and_Organization.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "Purpose Content and Organization" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index 1;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "About_FHIR.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "About FHIR" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ], [
+           fhir:index 2;
+           fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "About_Supporting_Specifications.html" ];
+           fhir:ImplementationGuide.definition.page.title [ fhir:value "About Supporting Specifications" ];
+           fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+         ]
+       ], [
+         fhir:index 2;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "Credits.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Credits" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/ImplementationGuide/ga4gh.fhir.phenopackets.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

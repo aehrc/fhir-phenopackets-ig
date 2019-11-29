@@ -1,0 +1,42 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "family-member-type",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Family Member Type</h2><div><p>Represents the types of members in a family.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/family-member-type defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">proband<a name=\"family-member-type-proband\"> </a></td><td>Proband</td><td>Proband</td></tr><tr><td style=\"white-space:nowrap\">relative<a name=\"family-member-type-relative\"> </a></td><td>Relative</td><td>Relative</td></tr></table></div>"
+  },
+  "url": "http://ga4gh.org/fhir/phenopackets/CodeSystem/family-member-type",
+  "version": "0.1.0",
+  "name": "FamilyMemberType",
+  "title": "Family Member Type",
+  "status": "active",
+  "experimental": false,
+  "date": "2019-11-29T14:40:16+10:00",
+  "publisher": "Global Alliance for Genomics and Health",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://ga4gh.org"
+        }
+      ]
+    }
+  ],
+  "description": "Represents the types of members in a family.",
+  "caseSensitive": false,
+  "valueSet": "http://ga4gh.org/fhir/phenopackets/CodeSystem/family-member-type?vs",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "proband",
+      "display": "Proband",
+      "definition": "Proband"
+    },
+    {
+      "code": "relative",
+      "display": "Relative",
+      "definition": "Relative"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "phenotypic-feature-interpretation"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenotypic Feature Interpretation</h2><div><p>Concepts to indicate the interpretation of a phenotypic feature (present or absent).</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/v3/ObservationInterpretation/cs.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-NEG\">NEG</a></td><td>Negative</td><td>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.<br/>\n                        [Note: Negative does not necessarily imply the complete absence of the specified item.]</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-POS\">POS</a></td><td>Positive</td><td>A presence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Phenotypic Feature Interpretation</h2><div><p>Codes to indicate the interpretation of a phenotypic feature (present or absent).</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/R4/v3/ObservationInterpretation/cs.html\"><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-NEG\">NEG</a></td><td>Negative</td><td>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.<br/>\n                        [Note: Negative does not necessarily imply the complete absence of the specified item.]</td></tr><tr><td><a href=\"http://hl7.org/fhir/R4/v3/ObservationInterpretation/cs.html#v3-ObservationInterpretation-POS\">POS</a></td><td>Positive</td><td>A presence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</td></tr></table></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/ValueSet/phenotypic-feature-interpretation"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
@@ -18,7 +18,7 @@
   fhir:ValueSet.title [ fhir:value "Phenotypic Feature Interpretation"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2019-10-18T20:32:59+10:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2019-11-29T14:40:16+10:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Global Alliance for Genomics and Health"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -28,7 +28,7 @@
        fhir:ContactPoint.value [ fhir:value "http://ga4gh.org" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "Concepts to indicate the interpretation of a phenotypic feature (present or absent)."];
+  fhir:ValueSet.description [ fhir:value "Codes to indicate the interpretation of a phenotypic feature (present or absent)."];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
