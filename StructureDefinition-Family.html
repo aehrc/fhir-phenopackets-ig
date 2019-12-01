@@ -252,11 +252,52 @@ See the Directory of published versions based on <a
 <a name="introduction"> </a>
 
 
-<p>TODO</p>
-
 <h4 id="mapping-notes">Mapping Notes</h4>
 
-<h4 id="extensions">Extensions</h4>
+<p>This element is represented in FHIR as a profile of a <a href="https://www.hl7.org/fhir/group.html">Group</a>.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phenopackets</th>
+      <th>FHIR</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Group.identifier</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>proband</td>
+      <td>Group.member</td>
+      <td>The proband is represented as a member with family-member-type = proband.</td>
+    </tr>
+    <tr>
+      <td>relatives</td>
+      <td>Group.member</td>
+      <td>The relatives are represented as members with family-member-type = relative.</td>
+    </tr>
+    <tr>
+      <td>pedigree</td>
+      <td><a href="StructureDefinition-pedigree-node.html">Extension</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>hts_files</td>
+      <td><a href="StructureDefinition-htsfiles.html">Extension</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>meta_data</td>
+      <td>NA</td>
+      <td>Not needed because FHIR already has its own metadata infrastructure.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
@@ -285,7 +326,7 @@ The official URL for this profile is:
 <p>
 This profile builds on <a href="http://hl7.org/fhir/R4/group.html">Group</a>.</p>
 <p>
-This profile was published on Fri Nov 29 14:40:16 AEST 2019 as a draft by Global Alliance for Genomics and Health.
+This profile was published on Mon Dec 02 08:48:39 AEST 2019 as a draft by Global Alliance for Genomics and Health.
 </p>
 
 
@@ -736,7 +777,7 @@ $( '#tabs' ).tabs({
   <div class="container">  <!-- container -->
    <div class="inner-wrapper">
     <p>
-      Phenopackets Version: 0.1.0  &reg;&copy; <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR Version: 4.0.1</a> (IG Publisher v4.0.1-a53ec6ee1b) generated on Fri, Nov 29, 2019 14:40+1000.
+      Phenopackets Version: 0.1.0  &reg;&copy; <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR Version: 4.0.1</a> (IG Publisher v4.0.1-a53ec6ee1b) generated on Mon, Dec 2, 2019 08:48+1000.
       | <a style="color: #81BEF7" href="https://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change</a>
         <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a>
         </span>
