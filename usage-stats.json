@@ -1,18 +1,41 @@
 {
-  "package": "ga4gh.fhir.phenopackets",
+  "package": "phenopackets",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-control",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/AffectedStatus",
+      "title": "Affected Status",
+      "types": [
+        "Coding",
+        "Coding"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/AgeOrAgeRange",
+      "title": "Age Or Age Range",
+      "types": [
+        "Age",
+        "Range"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/BiosampleControl",
       "title": "Biosample Control",
       "types": [
-        "boolean",
         "boolean"
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-diagnostic-markers",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/CodedOnset",
+      "title": "Coded Onset",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/DiagnosticMarkers",
       "title": "Diagnostic Markers",
       "types": [
         "CodeableConcept",
@@ -20,7 +43,287 @@
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-histological-diagnosis",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Evidence",
+      "title": "Evidence",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "CodeableConcept",
+        "CodeableConcept",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/ExternalReference",
+      "title": "External Reference",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "url",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/FamilyIdentifier",
+      "title": "Family Identifier",
+      "types": [
+        "Identifier"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/GenomeAssembly",
+      "title": "Genome Assembly",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/HistologicalDiagnosis",
       "title": "Histological Diagnosis",
       "types": [
         "CodeableConcept",
@@ -28,261 +331,55 @@
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-individual-age-at-collection",
-      "title": "Biosample Individual Age at Collection",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFileReference",
+      "title": "Hts File Reference",
       "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/IndividualReference",
+      "title": "Individual Reference",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/KaryotypicSex",
+      "title": "Karyotypic Sex",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Onset",
+      "title": "Onset",
+      "types": [
+        "dateTime",
+        "string",
         "Age",
+        "CodeableConcept",
+        "Period",
         "Range"
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-tumor-grade",
-      "title": "Tumor Grade",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/PedigreeNodeReference",
+      "title": "Pedigree Node Reference",
       "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-tumor-progression",
-      "title": "Tumor Progression",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/disease-onset",
-      "title": "Disease Onset",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/disease-tumor-stage",
-      "title": "Tumor Stage",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/evidence",
-      "title": "Evidence",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/external-reference",
-      "title": "External Reference",
-      "types": [
-        "url",
-        "url",
-        "string",
-        "string",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
-        "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/family-member-phenopacket",
-      "title": "Family Member Phenopacket",
-      "types": [
-        "Reference",
         "Reference"
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/family-member-type",
-      "title": "Family Member Type",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenopacketReference",
+      "title": "Phenopacket Reference",
       "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfile-genome-assembly",
-      "title": "HTS File Genome Assembly",
-      "types": [
-        "string",
-        "string"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfiles",
-      "title": "Hts Files",
-      "types": [
-        "Reference",
         "Reference"
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-age",
-      "title": "Individual Age",
-      "types": [
-        "Age",
-        "Range"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-karyotypic-sex",
-      "title": "Individual Karyotypic Sex",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-taxonomy",
-      "title": "Individual Taxonomy",
-      "types": [
-        "CodeableConcept",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/interpretation-phenopacket",
-      "title": "Interpretation Phenopacket",
-      "types": [
-        "Reference",
-        "Reference"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node",
-      "title": "Pedigree Node",
-      "types": [
-        "Reference",
-        "Reference"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-affected-status",
-      "title": "Pedigree Node Affected Status",
-      "types": [
-        "Coding",
-        "Coding"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-family-identifier",
-      "title": "Pedigree Node Family Identifier",
-      "types": [
-        "Identifier",
-        "Identifier"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-individual",
-      "title": "Pedigree Node Individual",
-      "types": [
-        "Reference",
-        "Reference"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-modifier",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenotypicFeatureModifier",
       "title": "Phenotypic Feature Modifier",
       "types": [
         "CodeableConcept",
@@ -290,30 +387,49 @@
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-onset",
-      "title": "Phenotypic Feature Onset",
-      "types": [
-        "dateTime",
-        "Age",
-        "Period",
-        "Range",
-        "string",
-        "CodeableConcept"
-      ]
-    },
-    {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-severity",
-      "title": "Phenotypic Feature Severity",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Severity",
+      "title": "Severity",
       "types": [
         "CodeableConcept",
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/variants",
-      "title": "Variants",
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Taxonomy",
+      "title": "Taxonomy",
       "types": [
-        "Reference",
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorGrade",
+      "title": "Tumor Grade",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorProgression",
+      "title": "Tumor Progression",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorStage",
+      "title": "Tumor Stage",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://ga4gh.org/fhir/phenopackets/StructureDefinition/VariantReference",
+      "title": "Variant Reference",
+      "types": [
         "Reference"
       ]
     }
@@ -375,83 +491,74 @@
     ]
   },
   "usage": {
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-control": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/AffectedStatus": [
+      "FamilyMemberHistory"
+    ],
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/AgeOrAgeRange": [
+      "Patient",
       "Specimen"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-diagnostic-markers": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/BiosampleControl": [
       "Specimen"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-histological-diagnosis": [
-      "Specimen"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-individual-age-at-collection": [
-      "Specimen"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-tumor-grade": [
-      "Specimen"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/biosample-tumor-progression": [
-      "Specimen"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/disease-onset": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/CodedOnset": [
       "Condition"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/disease-tumor-stage": [
-      "Condition"
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/DiagnosticMarkers": [
+      "Specimen"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/evidence": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Evidence": [
       "Observation"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/external-reference": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/ExternalReference": [
       "Extension"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/family-member-phenopacket": [
-      "Group.member"
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/FamilyIdentifier": [
+      "FamilyMemberHistory"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/family-member-type": [
-      "Group.member"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfile-genome-assembly": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/GenomeAssembly": [
       "DocumentReference"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/htsfiles": [
-      "Group",
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/HistologicalDiagnosis": [
       "Specimen"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-age": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFileReference": [
+      "Specimen"
+    ],
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/IndividualReference": [
+      "FamilyMemberHistory"
+    ],
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/KaryotypicSex": [
       "Patient"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-karyotypic-sex": [
-      "Patient"
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Onset": [
+      "Observation"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/individual-taxonomy": [
-      "Patient"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/interpretation-phenopacket": [
-      "DiagnosticReport"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/PedigreeNodeReference": [
       "Group"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-affected-status": [
-      "FamilyMemberHistory"
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenopacketReference": [
+      "DiagnosticReport"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-family-identifier": [
-      "FamilyMemberHistory"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/pedigree-node-individual": [
-      "FamilyMemberHistory"
-    ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-modifier": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenotypicFeatureModifier": [
       "Observation"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-onset": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Severity": [
       "Observation"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/phenotypic-feature-severity": [
-      "Observation"
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/Taxonomy": [
+      "Patient"
     ],
-    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/variants": [
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorGrade": [
+      "Specimen"
+    ],
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorProgression": [
+      "Specimen"
+    ],
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorStage": [
+      "Condition"
+    ],
+    "http://ga4gh.org/fhir/phenopackets/StructureDefinition/VariantReference": [
       "Specimen"
     ],
     "http://hl7.org/fhir/StructureDefinition/diagnosticReport-risk": [
@@ -464,7 +571,6 @@
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
-      "StructureDefinition.differential.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
@@ -496,6 +602,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"

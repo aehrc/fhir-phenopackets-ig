@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ValueSet xmlns="http://hl7.org/fhir">
-  <id value="onset"/>
+  <id value="Onset"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Onset</h2><div><p>Onset codes from the Human Phenotype Ontology and SNOMED CT.</p>
-</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0003674</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  282032007</li></ul></div>
+</div><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0003674 (Onset)</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  282032007 (Periods of life)</li></ul></div>
   </text>
-  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/onset"/>
+  <url value="http://ga4gh.org/fhir/phenopackets/ValueSet/Onset"/>
   <version value="0.1.0"/>
   <name value="Onset"/>
   <title value="Onset"/>
-  <status value="draft"/>
-  <experimental value="false"/>
-  <date value="2019-12-02T08:48:39+10:00"/>
-  <publisher value="Global Alliance for Genomics and Health"/>
+  <status value="active"/>
+  <date value="2020-02-14T16:13:10+10:00"/>
+  <publisher value="Alejandro Metke"/>
   <contact>
-    <telecom>
-      <system value="url"/>
-      <value value="http://ga4gh.org"/>
-    </telecom>
+    <name value="Alejandro Metke"/>
   </contact>
   <description value="Onset codes from the Human Phenotype Ontology and SNOMED CT."/>
   <compose>

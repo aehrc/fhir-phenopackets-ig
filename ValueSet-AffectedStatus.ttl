@@ -1,0 +1,40 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/ValueSet/AffectedStatus> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AffectedStatus"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Affected Status</h2><div><p>An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree.</p>\n</div><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-AffectedStatus.html\"><code>http://ga4gh.org/fhir/phenopackets/CodeSystem/AffectedStatus</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/ValueSet/AffectedStatus"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "AffectedStatus"];
+  fhir:ValueSet.title [ fhir:value "Affected Status"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2020-02-14T16:13:10+10:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Alejandro Metke"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Alejandro Metke" ]
+  ];
+  fhir:ValueSet.description [ fhir:value "An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree."];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/AffectedStatus" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/ValueSet/AffectedStatus.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

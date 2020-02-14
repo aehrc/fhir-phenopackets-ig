@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/KaryotypicSex> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "KaryotypicSex"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Karyotypic Sex</h2><div><p>Represents the chromosomal sex of an individual.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/KaryotypicSex defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">UNKNOWN_KARYOTYPE<a name=\"KaryotypicSex-UNKNOWN_KARYOTYPE\"> </a></td><td>Untyped or inconclusive karyotyping</td><td/></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"KaryotypicSex-XX\"> </a></td><td>Female</td><td/></tr><tr><td style=\"white-space:nowrap\">XY<a name=\"KaryotypicSex-XY\"> </a></td><td>Male</td><td/></tr><tr><td style=\"white-space:nowrap\">XO<a name=\"KaryotypicSex-XO\"> </a></td><td>Single X chromosome only</td><td/></tr><tr><td style=\"white-space:nowrap\">XXY<a name=\"KaryotypicSex-XXY\"> </a></td><td>Two X and one Y chromosome</td><td/></tr><tr><td style=\"white-space:nowrap\">XXX<a name=\"KaryotypicSex-XXX\"> </a></td><td>Three X chromosomes</td><td/></tr><tr><td style=\"white-space:nowrap\">XXYY<a name=\"KaryotypicSex-XXYY\"> </a></td><td>Two X chromosomes and two Y chromosomes</td><td/></tr><tr><td style=\"white-space:nowrap\">XXXY<a name=\"KaryotypicSex-XXXY\"> </a></td><td>Three X chromosomes and one Y chromosome</td><td/></tr><tr><td style=\"white-space:nowrap\">XXXX<a name=\"KaryotypicSex-XXXX\"> </a></td><td>Four X chromosomes</td><td/></tr><tr><td style=\"white-space:nowrap\">XYY<a name=\"KaryotypicSex-XYY\"> </a></td><td>One X and two Y chromosomes</td><td/></tr><tr><td style=\"white-space:nowrap\">OTHER_KARYOTYPE<a name=\"KaryotypicSex-OTHER_KARYOTYPE\"> </a></td><td>None of the above types</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/KaryotypicSex"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "KaryotypicSex"];
+  fhir:CodeSystem.title [ fhir:value "Karyotypic Sex"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2020-02-14T16:13:10+10:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Alejandro Metke"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Alejandro Metke" ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Represents the chromosomal sex of an individual."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "UNKNOWN_KARYOTYPE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Untyped or inconclusive karyotyping" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "XX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Female" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "XY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Male" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "XO" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Single X chromosome only" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "XXY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Two X and one Y chromosome" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "XXX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Three X chromosomes" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "XXYY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Two X chromosomes and two Y chromosomes" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "XXXY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Three X chromosomes and one Y chromosome" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "XXXX" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Four X chromosomes" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "XYY" ];
+     fhir:CodeSystem.concept.display [ fhir:value "One X and two Y chromosomes" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "OTHER_KARYOTYPE" ];
+     fhir:CodeSystem.concept.display [ fhir:value "None of the above types" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/KaryotypicSex.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/AffectedStatus> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AffectedStatus"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Affected Status</h2><div><p>An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/AffectedStatus defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">missing<a name=\"AffectedStatus-missing\"> </a></td><td>Missing</td><td/></tr><tr><td style=\"white-space:nowrap\">unaffected<a name=\"AffectedStatus-unaffected\"> </a></td><td>Unaffected</td><td/></tr><tr><td style=\"white-space:nowrap\">Affected<a name=\"AffectedStatus-Affected\"> </a></td><td>Affected</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/AffectedStatus"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "AffectedStatus"];
+  fhir:CodeSystem.title [ fhir:value "Affected Status"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2020-02-14T16:13:10+10:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Alejandro Metke"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Alejandro Metke" ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "An enumeration used to represent whether a person is affected by a condition of interest in the context of a pedigree."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "missing" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Missing" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "unaffected" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Unaffected" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "Affected" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Affected" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/AffectedStatus.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

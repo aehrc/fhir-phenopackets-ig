@@ -1,409 +1,478 @@
-﻿Phenopackets : Validation Results
+﻿PhenopacketsImplementationGuide : Validation Results
 =========================================
 
-err = 2, warn = 0, info = 0
-IG Publisher Version: v0.9.96-SNAPSHOT Out of date - current version is v1.0.5-SNAPSHOT
-Generated Mon Dec 02 08:50:28 AEST 2019. FHIR version 4.0.1 for ga4gh.fhir.phenopackets#0.1.0 (canonical = http://ga4gh.org/fhir/phenopackets)
+err = 2, warn = 66, info = 0
+IG Publisher Version: v1.0.64-SNAPSHOT
+Generated Fri Feb 14 16:14:29 AEST 2020. FHIR version 4.0.1 for phenopackets#0.1.0 (canonical = http://ga4gh.org/fhir/phenopackets)
 
- Build Errors : 280 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-affected-status : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-document-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-family-member-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-hts-format : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-karyotypic-sex : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/codesystem-section-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/implementationguide/phenopackets : 1 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Biosample : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Cohort : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Disease : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Family : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-HtsFile : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Individual : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Interpretation : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-PedigreeNode : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-Phenopacket : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-PhenotypicFeature : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-control : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-diagnostic-markers : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-histological-diagnosis : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-individual-age-at-collection : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-tumor-grade : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-biosample-tumor-progression : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-disease-onset : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-disease-tumor-stage : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-evidence : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-external-reference : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-family-member-phenopacket : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-family-member-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-htsfile-genome-assembly : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-htsfiles : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-individual-age : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-individual-karyotypic-sex : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-individual-taxonomy : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-interpretation-phenopacket : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node-affected-status : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node-family-identifier : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-pedigree-node-individual : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-phenotypic-feature-modifier : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-phenotypic-feature-onset : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-phenotypic-feature-severity : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/structuredefinition-variants : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-diagnostic-markers : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-evidence : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-family-member-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-histological-diagnosis : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-hts-format : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-karyotypic-sex : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-onset : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-pedigree-affected-status : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-interpretation : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-modifier : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-severity : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-phenotypic-feature-type : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-taxonomy : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tumor-grade : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tumor-progression : 0 / 0
- /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/valueset-tumor-stage : 0 / 0
+ Build Errors : 325 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/ImplementationGuide-phenopackets : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/codesystem-AffectedStatus : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/codesystem-DocumentType : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/codesystem-HtsFormat : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/codesystem-KaryotypicSex : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/codesystem-SectionType : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-AffectedStatus : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-AgeOrAgeRange : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Biosample : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-BiosampleControl : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-CodedOnset : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Cohort : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-DiagnosticMarkers : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Disease : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Evidence : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-ExternalReference : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Family : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-FamilyIdentifier : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-GenomeAssembly : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-HistologicalDiagnosis : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-HtsFile : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-HtsFileReference : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Individual : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-IndividualReference : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Interpretation : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-KaryotypicSex : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Onset : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-PedigreeNode : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-PedigreeNodeReference : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Phenopacket : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-PhenopacketReference : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-PhenotypicFeature : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-PhenotypicFeatureModifier : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Severity : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-Taxonomy : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-TumorGrade : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-TumorProgression : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-TumorStage : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/structuredefinition-VariantReference : 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-AffectedStatus : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-DiagnosticMarkers : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-Evidence : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-HTSFormat : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-HistologicalDiagnosis : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-KaryotypicSex : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-Onset : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-PhenotypicFeatureInterpretation : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-PhenotypicFeatureModifier : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-PhenotypicFeatureType : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-Severity : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-Taxonomy : 1 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-TumorGrade : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-TumorProgression : 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/valueset-TumorStage : 0 / 0
 </table>
 == n/a ==
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.html: The html source does not contain the publish box <!--ReleaseHeader--><p id="publish-box">Publish Box goes here</p><!--EndReleaseHeader--> (see note at http://wiki.hl7.org/index.php?title=FHIR_Implementation_Guide_Publishing_Requirements#HL7_HTML_Standards_considerations)
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-affected-status.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-document-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-family-member-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-hts-format.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-karyotypic-sex.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-karyotypic-sex.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-karyotypic-sex.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-karyotypic-sex.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/CodeSystem-section-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ImplementationGuide-ga4gh.fhir.phenopackets.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Biosample.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Cohort.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Disease.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Family.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-HtsFile.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Individual.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Interpretation.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PedigreeNode.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Phenopacket-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Phenopacket.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Phenopacket.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Phenopacket.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-Phenopacket.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-PhenotypicFeature.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-control.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-diagnostic-markers.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-histological-diagnosis.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-individual-age-at-collection.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-grade.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-biosample-tumor-progression.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-onset.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-disease-tumor-stage.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-evidence.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-external-reference.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-phenopacket.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-family-member-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfile-genome-assembly.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfiles-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfiles.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfiles.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfiles.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-htsfiles.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-age-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-age.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-age.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-age.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-age.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-karyotypic-sex-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-karyotypic-sex.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-karyotypic-sex.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-karyotypic-sex.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-karyotypic-sex.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-individual-taxonomy.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-interpretation-phenopacket.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-affected-status.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-family-identifier.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node-individual.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-pedigree-node.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-modifier.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-onset-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-onset.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-onset.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-onset.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-onset.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-phenotypic-feature-severity.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants-definitions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/StructureDefinition-variants.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-diagnostic-markers.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-evidence.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-family-member-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-histological-diagnosis.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-hts-format.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-karyotypic-sex.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-onset.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-pedigree-affected-status.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-pedigree-affected-status.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-pedigree-affected-status.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-pedigree-affected-status.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-interpretation.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-interpretation.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-interpretation.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-interpretation.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-modifier.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-modifier.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-modifier.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-modifier.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-severity.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-severity.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-severity.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-severity.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-phenotypic-feature-type.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-taxonomy.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-grade.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-progression.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.json.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.ttl.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/ValueSet-tumor-stage.xml.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/downloads.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/examples.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/extensions.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/guidance.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/index.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/mapping.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/profiles.html: The html source does not contain the publish box
-ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/output/terminology.html: The html source does not contain the publish box
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-affected-status.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-document-type.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-family-member-type.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-hts-format.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-karyotypic-sex.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/CodeSystem-section-type.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/implementationguide/phenopackets.xml ==
-ERROR: ImplementationGuide/ga4gh.fhir.phenopackets: ImplementationGuide.dependsOn[0].uri: URL value 'http://hl7.org/fhir/uv/genomics-reporting' does not resolve
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Biosample.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Cohort.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Disease.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Family.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-HtsFile.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Individual.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Interpretation.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-PedigreeNode.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-Phenopacket.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-PhenotypicFeature.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-control.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-diagnostic-markers.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-histological-diagnosis.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-individual-age-at-collection.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-tumor-grade.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-biosample-tumor-progression.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-disease-onset.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-disease-tumor-stage.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-evidence.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-external-reference.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-family-member-phenopacket.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-family-member-type.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-htsfile-genome-assembly.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-htsfiles.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-individual-age.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-individual-karyotypic-sex.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-individual-taxonomy.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-interpretation-phenopacket.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node-affected-status.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node-family-identifier.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-pedigree-node-individual.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-phenotypic-feature-modifier.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-phenotypic-feature-onset.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-phenotypic-feature-severity.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/StructureDefinition-variants.xml ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-diagnostic-markers.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-evidence.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-family-member-type.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-histological-diagnosis.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-hts-format.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-karyotypic-sex.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-onset.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-pedigree-affected-status.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-interpretation.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-modifier.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-severity.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-phenotypic-feature-type.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-taxonomy.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tumor-grade.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tumor-progression.json ==
-== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/source/resources/ValueSet-tumor-stage.json ==
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-AffectedStatus.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-AffectedStatus.json.html#/html/body/div/div/div/p/a at Line 170, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-AffectedStatus.ttl.html#/html/body/div/div/div/p/a at Line 182, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-AffectedStatus.xml.html#/html/body/div/div/div/p/a at Line 168, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-DocumentType.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-DocumentType.json.html#/html/body/div/div/div/p/a at Line 166, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-DocumentType.ttl.html#/html/body/div/div/div/p/a at Line 178, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-DocumentType.xml.html#/html/body/div/div/div/p/a at Line 164, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-HtsFormat.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-HtsFormat.json.html#/html/body/div/div/div/p/a at Line 186, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-HtsFormat.ttl.html#/html/body/div/div/div/p/a at Line 198, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-HtsFormat.xml.html#/html/body/div/div/div/p/a at Line 184, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-KaryotypicSex.html#/html/body/div/div/div/p/a at Line 151, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-KaryotypicSex.json.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-KaryotypicSex.ttl.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-KaryotypicSex.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-SectionType.html#/html/body/div/div/div/p/a at Line 149, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-SectionType.json.html#/html/body/div/div/div/p/a at Line 202, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-SectionType.ttl.html#/html/body/div/div/div/p/a at Line 214, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/CodeSystem-SectionType.xml.html#/html/body/div/div/div/p/a at Line 200, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AffectedStatus-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AffectedStatus-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AffectedStatus.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AffectedStatus.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AffectedStatus.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AffectedStatus.profile.xml.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AgeOrAgeRange-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AgeOrAgeRange-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AgeOrAgeRange.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AgeOrAgeRange.profile.json.html#/html/body/div/div/div/p/a at Line 458, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AgeOrAgeRange.profile.ttl.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-AgeOrAgeRange.profile.xml.html#/html/body/div/div/div/p/a at Line 418, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample-definitions.html#/html/body/div/div/div/p/a at Line 676, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample-mappings.html#/html/body/div/div/div/p/a at Line 274, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.html#/html/body/div/div/div/p/a at Line 770, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.json.html#/html/body/div/div/div/p/a at Line 2923, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.profile.json.html#/html/body/div/div/div/p/a at Line 2972, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.profile.ttl.html#/html/body/div/div/div/p/a at Line 2636, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.profile.xml.html#/html/body/div/div/div/p/a at Line 2595, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.ttl.html#/html/body/div/div/div/p/a at Line 2586, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Biosample.xml.html#/html/body/div/div/div/p/a at Line 2542, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-BiosampleControl-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-BiosampleControl-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-BiosampleControl.html#/html/body/div/div/div/p/a at Line 416, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-BiosampleControl.profile.json.html#/html/body/div/div/div/p/a at Line 448, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-BiosampleControl.profile.ttl.html#/html/body/div/div/div/p/a at Line 425, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-BiosampleControl.profile.xml.html#/html/body/div/div/div/p/a at Line 406, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-CodedOnset-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-CodedOnset-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-CodedOnset.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-CodedOnset.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-CodedOnset.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-CodedOnset.profile.xml.html#/html/body/div/div/div/p/a at Line 452, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort-definitions.html#/html/body/div/div/div/p/a at Line 1117, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort-mappings.html#/html/body/div/div/div/p/a at Line 382, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.html#/html/body/div/div/div/p/a at Line 908, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.json.html#/html/body/div/div/div/p/a at Line 4891, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.profile.json.html#/html/body/div/div/div/p/a at Line 4940, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.profile.ttl.html#/html/body/div/div/div/p/a at Line 4332, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.profile.xml.html#/html/body/div/div/div/p/a at Line 4449, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.ttl.html#/html/body/div/div/div/p/a at Line 4282, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Cohort.xml.html#/html/body/div/div/div/p/a at Line 4396, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-DiagnosticMarkers-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-DiagnosticMarkers-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-DiagnosticMarkers.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-DiagnosticMarkers.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-DiagnosticMarkers.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-DiagnosticMarkers.profile.xml.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease-definitions.html#/html/body/div/div/div/p/a at Line 543, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease-mappings.html#/html/body/div/div/div/p/a at Line 302, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.html#/html/body/div/div/div/p/a at Line 642, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.json.html#/html/body/div/div/div/p/a at Line 2272, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.profile.json.html#/html/body/div/div/div/p/a at Line 2321, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.profile.ttl.html#/html/body/div/div/div/p/a at Line 2070, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.profile.xml.html#/html/body/div/div/div/p/a at Line 2114, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.ttl.html#/html/body/div/div/div/p/a at Line 2020, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Disease.xml.html#/html/body/div/div/div/p/a at Line 2061, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Evidence-definitions.html#/html/body/div/div/div/p/a at Line 310, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Evidence-mappings.html#/html/body/div/div/div/p/a at Line 198, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Evidence.html#/html/body/div/div/div/p/a at Line 897, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Evidence.profile.json.html#/html/body/div/div/div/p/a at Line 1255, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Evidence.profile.ttl.html#/html/body/div/div/div/p/a at Line 1053, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Evidence.profile.xml.html#/html/body/div/div/div/p/a at Line 1133, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-ExternalReference-definitions.html#/html/body/div/div/div/p/a at Line 362, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-ExternalReference-mappings.html#/html/body/div/div/div/p/a at Line 205, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-ExternalReference.html#/html/body/div/div/div/p/a at Line 880, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-ExternalReference.profile.json.html#/html/body/div/div/div/p/a at Line 1659, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-ExternalReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 1360, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-ExternalReference.profile.xml.html#/html/body/div/div/div/p/a at Line 1494, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family-definitions.html#/html/body/div/div/div/p/a at Line 627, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family-mappings.html#/html/body/div/div/div/p/a at Line 233, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.html#/html/body/div/div/div/p/a at Line 1249, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.json.html#/html/body/div/div/div/p/a at Line 2765, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.profile.json.html#/html/body/div/div/div/p/a at Line 2814, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.profile.ttl.html#/html/body/div/div/div/p/a at Line 2399, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.profile.xml.html#/html/body/div/div/div/p/a at Line 2560, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.ttl.html#/html/body/div/div/div/p/a at Line 2349, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Family.xml.html#/html/body/div/div/div/p/a at Line 2507, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-FamilyIdentifier-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-FamilyIdentifier-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-FamilyIdentifier.html#/html/body/div/div/div/p/a at Line 416, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-FamilyIdentifier.profile.json.html#/html/body/div/div/div/p/a at Line 448, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-FamilyIdentifier.profile.ttl.html#/html/body/div/div/div/p/a at Line 425, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-FamilyIdentifier.profile.xml.html#/html/body/div/div/div/p/a at Line 406, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-GenomeAssembly-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-GenomeAssembly-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-GenomeAssembly.html#/html/body/div/div/div/p/a at Line 416, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-GenomeAssembly.profile.json.html#/html/body/div/div/div/p/a at Line 448, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-GenomeAssembly.profile.ttl.html#/html/body/div/div/div/p/a at Line 425, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-GenomeAssembly.profile.xml.html#/html/body/div/div/div/p/a at Line 407, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HistologicalDiagnosis-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HistologicalDiagnosis-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HistologicalDiagnosis.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HistologicalDiagnosis.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HistologicalDiagnosis.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HistologicalDiagnosis.profile.xml.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile-definitions.html#/html/body/div/div/div/p/a at Line 618, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile-mappings.html#/html/body/div/div/div/p/a at Line 354, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.html#/html/body/div/div/div/p/a at Line 637, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.json.html#/html/body/div/div/div/p/a at Line 2634, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.profile.json.html#/html/body/div/div/div/p/a at Line 2683, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.profile.ttl.html#/html/body/div/div/div/p/a at Line 2359, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.profile.xml.html#/html/body/div/div/div/p/a at Line 2459, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.ttl.html#/html/body/div/div/div/p/a at Line 2309, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFile.xml.html#/html/body/div/div/div/p/a at Line 2406, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFileReference-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFileReference-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFileReference.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFileReference.profile.json.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFileReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-HtsFileReference.profile.xml.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual-definitions.html#/html/body/div/div/div/p/a at Line 685, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual-mappings.html#/html/body/div/div/div/p/a at Line 296, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.html#/html/body/div/div/div/p/a at Line 688, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.json.html#/html/body/div/div/div/p/a at Line 2586, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.profile.json.html#/html/body/div/div/div/p/a at Line 2635, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.profile.ttl.html#/html/body/div/div/div/p/a at Line 2319, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.profile.xml.html#/html/body/div/div/div/p/a at Line 2401, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.ttl.html#/html/body/div/div/div/p/a at Line 2269, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Individual.xml.html#/html/body/div/div/div/p/a at Line 2348, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-IndividualReference-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-IndividualReference-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-IndividualReference.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-IndividualReference.profile.json.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-IndividualReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-IndividualReference.profile.xml.html#/html/body/div/div/div/p/a at Line 411, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation-definitions.html#/html/body/div/div/div/p/a at Line 1000, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation-mappings.html#/html/body/div/div/div/p/a at Line 355, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.html#/html/body/div/div/div/p/a at Line 845, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.json.html#/html/body/div/div/div/p/a at Line 4247, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.profile.json.html#/html/body/div/div/div/p/a at Line 4296, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.profile.ttl.html#/html/body/div/div/div/p/a at Line 3935, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.profile.xml.html#/html/body/div/div/div/p/a at Line 3793, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.ttl.html#/html/body/div/div/div/p/a at Line 3885, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Interpretation.xml.html#/html/body/div/div/div/p/a at Line 3740, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-KaryotypicSex-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-KaryotypicSex-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-KaryotypicSex.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-KaryotypicSex.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-KaryotypicSex.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-KaryotypicSex.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Onset-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Onset-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Onset.html#/html/body/div/div/div/p/a at Line 452, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Onset.profile.json.html#/html/body/div/div/div/p/a at Line 478, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Onset.profile.ttl.html#/html/body/div/div/div/p/a at Line 445, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Onset.profile.xml.html#/html/body/div/div/div/p/a at Line 442, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode-definitions.html#/html/body/div/div/div/p/a at Line 582, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode-mappings.html#/html/body/div/div/div/p/a at Line 239, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 221, column 622: The link 'StructureDefinition-PedigreeNode-definitions.html#FamilyMemberHistory.sex' for "sex" cannot be resolved (valid targets: 81 targets)
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 438, column 622: The link 'StructureDefinition-PedigreeNode-definitions.html#FamilyMemberHistory.sex' for "sex" cannot be resolved (valid targets: 81 targets)
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.html#/html/body/div/div/div/p/a at Line 688, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.json.html#/html/body/div/div/div/p/a at Line 2127, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.profile.json.html#/html/body/div/div/div/p/a at Line 2176, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.profile.ttl.html#/html/body/div/div/div/p/a at Line 1966, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.profile.xml.html#/html/body/div/div/div/p/a at Line 1966, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.ttl.html#/html/body/div/div/div/p/a at Line 1916, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNode.xml.html#/html/body/div/div/div/p/a at Line 1913, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNodeReference-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNodeReference-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNodeReference.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNodeReference.profile.json.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNodeReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PedigreeNodeReference.profile.xml.html#/html/body/div/div/div/p/a at Line 410, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket-definitions.html#/html/body/div/div/div/p/a at Line 1552, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket-mappings.html#/html/body/div/div/div/p/a at Line 467, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.html#/html/body/div/div/div/p/a at Line 1226, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.json.html#/html/body/div/div/div/p/a at Line 7095, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.profile.json.html#/html/body/div/div/div/p/a at Line 7144, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.profile.ttl.html#/html/body/div/div/div/p/a at Line 6262, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.profile.xml.html#/html/body/div/div/div/p/a at Line 6415, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.ttl.html#/html/body/div/div/div/p/a at Line 6212, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Phenopacket.xml.html#/html/body/div/div/div/p/a at Line 6362, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenopacketReference-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenopacketReference-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenopacketReference.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenopacketReference.profile.json.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenopacketReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenopacketReference.profile.xml.html#/html/body/div/div/div/p/a at Line 410, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature-definitions.html#/html/body/div/div/div/p/a at Line 745, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature-examples.html#/html/body/div/div/div/div/div/h2/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature-mappings.html#/html/body/div/div/div/p/a at Line 277, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.html#/html/body/div/div/div/p/a at Line 743, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.json.html#/html/body/div/div/div/p/a at Line 3152, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.profile.json.html#/html/body/div/div/div/p/a at Line 3201, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.profile.ttl.html#/html/body/div/div/div/p/a at Line 2854, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.profile.xml.html#/html/body/div/div/div/p/a at Line 2928, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.ttl.html#/html/body/div/div/div/p/a at Line 2804, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeature.xml.html#/html/body/div/div/div/p/a at Line 2875, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeatureModifier-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeatureModifier-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeatureModifier.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeatureModifier.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeatureModifier.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-PhenotypicFeatureModifier.profile.xml.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Severity-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Severity-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Severity.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Severity.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Severity.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Severity.profile.xml.html#/html/body/div/div/div/p/a at Line 452, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Taxonomy-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Taxonomy-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Taxonomy.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Taxonomy.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Taxonomy.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-Taxonomy.profile.xml.html#/html/body/div/div/div/p/a at Line 453, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorGrade-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorGrade-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorGrade.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorGrade.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorGrade.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorGrade.profile.xml.html#/html/body/div/div/div/p/a at Line 452, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorProgression-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorProgression-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorProgression.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorProgression.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorProgression.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorProgression.profile.xml.html#/html/body/div/div/div/p/a at Line 456, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorStage-definitions.html#/html/body/div/div/div/p/a at Line 234, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorStage-mappings.html#/html/body/div/div/div/p/a at Line 188, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorStage.html#/html/body/div/div/div/p/a at Line 431, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorStage.profile.json.html#/html/body/div/div/div/p/a at Line 503, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorStage.profile.ttl.html#/html/body/div/div/div/p/a at Line 473, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-TumorStage.profile.xml.html#/html/body/div/div/div/p/a at Line 453, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-VariantReference-definitions.html#/html/body/div/div/div/p/a at Line 223, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-VariantReference-mappings.html#/html/body/div/div/div/p/a at Line 187, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-VariantReference.html#/html/body/div/div/div/p/a at Line 430, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-VariantReference.profile.json.html#/html/body/div/div/div/p/a at Line 454, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-VariantReference.profile.ttl.html#/html/body/div/div/div/p/a at Line 433, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/StructureDefinition-VariantReference.profile.xml.html#/html/body/div/div/div/p/a at Line 410, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-AffectedStatus.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-AffectedStatus.json.html#/html/body/div/div/div/p/a at Line 162, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-AffectedStatus.ttl.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-AffectedStatus.xml.html#/html/body/div/div/div/p/a at Line 161, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-DiagnosticMarkers.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-DiagnosticMarkers.json.html#/html/body/div/div/div/p/a at Line 169, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-DiagnosticMarkers.ttl.html#/html/body/div/div/div/p/a at Line 178, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-DiagnosticMarkers.xml.html#/html/body/div/div/div/p/a at Line 164, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Evidence.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Evidence.json.html#/html/body/div/div/div/p/a at Line 162, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Evidence.ttl.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Evidence.xml.html#/html/body/div/div/div/p/a at Line 159, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HTSFormat.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HTSFormat.json.html#/html/body/div/div/div/p/a at Line 162, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HTSFormat.ttl.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HTSFormat.xml.html#/html/body/div/div/div/p/a at Line 160, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HistologicalDiagnosis.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HistologicalDiagnosis.json.html#/html/body/div/div/div/p/a at Line 179, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HistologicalDiagnosis.ttl.html#/html/body/div/div/div/p/a at Line 185, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-HistologicalDiagnosis.xml.html#/html/body/div/div/div/p/a at Line 172, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-KaryotypicSex.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-KaryotypicSex.json.html#/html/body/div/div/div/p/a at Line 162, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-KaryotypicSex.ttl.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-KaryotypicSex.xml.html#/html/body/div/div/div/p/a at Line 160, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Onset.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Onset.json.html#/html/body/div/div/div/p/a at Line 179, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Onset.ttl.html#/html/body/div/div/div/p/a at Line 185, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Onset.xml.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureInterpretation.html#/html/body/div/div/div/p/a at Line 193, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureInterpretation.json.html#/html/body/div/div/div/p/a at Line 172, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureInterpretation.ttl.html#/html/body/div/div/div/p/a at Line 180, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureInterpretation.xml.html#/html/body/div/div/div/p/a at Line 171, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureModifier.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureModifier.json.html#/html/body/div/div/div/p/a at Line 179, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureModifier.ttl.html#/html/body/div/div/div/p/a at Line 185, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureModifier.xml.html#/html/body/div/div/div/p/a at Line 174, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureType.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureType.json.html#/html/body/div/div/div/p/a at Line 179, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureType.ttl.html#/html/body/div/div/div/p/a at Line 185, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-PhenotypicFeatureType.xml.html#/html/body/div/div/div/p/a at Line 172, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Severity.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Severity.json.html#/html/body/div/div/div/p/a at Line 179, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Severity.ttl.html#/html/body/div/div/div/p/a at Line 185, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Severity.xml.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Taxonomy.html#/html/body/div/div/div/p/a at Line 192, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Taxonomy.json.html#/html/body/div/div/div/p/a at Line 162, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Taxonomy.ttl.html#/html/body/div/div/div/p/a at Line 173, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-Taxonomy.xml.html#/html/body/div/div/div/p/a at Line 159, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorGrade.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorGrade.json.html#/html/body/div/div/div/p/a at Line 169, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorGrade.ttl.html#/html/body/div/div/div/p/a at Line 178, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorGrade.xml.html#/html/body/div/div/div/p/a at Line 164, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorProgression.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorProgression.json.html#/html/body/div/div/div/p/a at Line 176, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorProgression.ttl.html#/html/body/div/div/div/p/a at Line 183, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorProgression.xml.html#/html/body/div/div/div/p/a at Line 172, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorStage.html#/html/body/div/div/div/p/a at Line 190, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorStage.json.html#/html/body/div/div/div/p/a at Line 169, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorStage.ttl.html#/html/body/div/div/div/p/a at Line 178, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/ValueSet-TumorStage.xml.html#/html/body/div/div/div/p/a at Line 164, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/artifacts.html#/html/body/div/div/div/p/a at Line 544, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/guidance.html#/html/body/div/div/div/p/a at Line 155, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/index.html#/html/body/div/div/div/p/a at Line 155, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/mapping.html#/html/body/div/div/div/p/a at Line 249, column 28: The link '' for "Alejandro Metke" cannot be resolved
+ERROR: /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/output/toc.html#/html/body/div/div/div/p/a at Line 124, column 28: The link '' for "Alejandro Metke" cannot be resolved
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/ImplementationGuide-phenopackets.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/CodeSystem-AffectedStatus.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/CodeSystem-DocumentType.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/CodeSystem-HtsFormat.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/CodeSystem-KaryotypicSex.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/CodeSystem-SectionType.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-AffectedStatus.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/AffectedStatus: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-AgeOrAgeRange.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/AgeOrAgeRange: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Biosample.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Biosample: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-BiosampleControl.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/BiosampleControl: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-CodedOnset.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/CodedOnset: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Cohort.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Cohort: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-DiagnosticMarkers.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/DiagnosticMarkers: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Disease.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Disease: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Evidence.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Evidence: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-ExternalReference.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/ExternalReference: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Family.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Family: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-FamilyIdentifier.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/FamilyIdentifier: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-GenomeAssembly.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/GenomeAssembly: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-HistologicalDiagnosis.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/HistologicalDiagnosis: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-HtsFile.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFile: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-HtsFileReference.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/HtsFileReference: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Individual.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Individual: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-IndividualReference.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/IndividualReference: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Interpretation.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Interpretation: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-KaryotypicSex.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/KaryotypicSex: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Onset.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Onset: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-PedigreeNode.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/PedigreeNode: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-PedigreeNodeReference.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/PedigreeNodeReference: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Phenopacket.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Phenopacket: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-PhenopacketReference.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenopacketReference: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-PhenotypicFeature.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenotypicFeature: The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-PhenotypicFeatureModifier.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/PhenotypicFeatureModifier: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Severity.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Severity: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-Taxonomy.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/Taxonomy: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-TumorGrade.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorGrade: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-TumorProgression.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorProgression: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-TumorStage.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/TumorStage: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/StructureDefinition-VariantReference.json ==
+WARNING: http://ga4gh.org/fhir/phenopackets/StructureDefinition/VariantReference: The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-AffectedStatus.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-DiagnosticMarkers.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-Evidence.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-HTSFormat.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-HistologicalDiagnosis.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-KaryotypicSex.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-Onset.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-PhenotypicFeatureInterpretation.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-PhenotypicFeatureModifier.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-PhenotypicFeatureType.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-Severity.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-Taxonomy.json ==
+ERROR: Taxonomy: Error from server: Error:org.hl7.fhir.r5.model.CodeableConcept@c723b12
+
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-TumorGrade.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-TumorProgression.json ==
+== /Users/met045/CSIRO/workspaces/projects/fhir-phenopackets/build/input/resources/ValueSet-TumorStage.json ==

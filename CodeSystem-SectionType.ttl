@@ -1,0 +1,80 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "SectionType"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Section Type</h2><div><p>Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard.</p>\n</div><p>This code system http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">observations<a name=\"SectionType-observations\"> </a></td><td>Observations</td><td/></tr><tr><td style=\"white-space:nowrap\">encounters<a name=\"SectionType-encounters\"> </a></td><td>Encounters</td><td/></tr><tr><td style=\"white-space:nowrap\">diseases<a name=\"SectionType-diseases\"> </a></td><td>Diseases</td><td/></tr><tr><td style=\"white-space:nowrap\">biosamples<a name=\"SectionType-biosamples\"> </a></td><td>Biosamples</td><td/></tr><tr><td style=\"white-space:nowrap\">genomics-reports<a name=\"SectionType-genomics-reports\"> </a></td><td>Genomics reports</td><td/></tr><tr><td style=\"white-space:nowrap\">relatives<a name=\"SectionType-relatives\"> </a></td><td>Relatives</td><td/></tr><tr><td style=\"white-space:nowrap\">pedigree<a name=\"SectionType-pedigree\"> </a></td><td>Pedigree</td><td/></tr><tr><td style=\"white-space:nowrap\">hts-files<a name=\"SectionType-hts-files\"> </a></td><td>HTS files</td><td/></tr><tr><td style=\"white-space:nowrap\">members<a name=\"SectionType-members\"> </a></td><td>Members</td><td/></tr><tr><td style=\"white-space:nowrap\">phenotypic-features<a name=\"SectionType-phenotypic-features\"> </a></td><td>Phenotypic features</td><td/></tr><tr><td style=\"white-space:nowrap\">variants<a name=\"SectionType-variants\"> </a></td><td>Variants</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "SectionType"];
+  fhir:CodeSystem.title [ fhir:value "Section Type"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2020-02-14T16:13:10+10:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Alejandro Metke"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Alejandro Metke" ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Represents the different types of sections in the objects that are built as compositions in the Phenopackets standard."];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "observations" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Observations" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "encounters" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Encounters" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "diseases" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Diseases" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "biosamples" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Biosamples" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "genomics-reports" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Genomics reports" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "relatives" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Relatives" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "pedigree" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pedigree" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "hts-files" ];
+     fhir:CodeSystem.concept.display [ fhir:value "HTS files" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "members" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Members" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "phenotypic-features" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Phenotypic features" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "variants" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Variants" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://ga4gh.org/fhir/phenopackets/CodeSystem/SectionType.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
